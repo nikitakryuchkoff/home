@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../styles/tokens.css";
+@import "../styles/base.css";
+@import "../styles/layout.css";
+@import "../styles/typography.css";
+@import "../styles/buttons.css";
+@import "../styles/nav.css";
+@import "../styles/hero.css";
+@import "../styles/sections.css";
+@import "../styles/grid.css";
+@import "../styles/faq.css";
+@import "../styles/form.css";
+@import "../styles/footer.css";
+@import "../styles/ticker.css";
+@import "../styles/tariff.css";
+@import "../styles/qa.css";
+@import "../styles/svc.css";
+@import "../styles/editorial.css";

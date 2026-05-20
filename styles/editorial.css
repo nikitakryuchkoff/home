@@ -1,0 +1,220 @@
+/* Editorial cases */
+.case-art {
+  position: relative;
+  border-bottom: 1px solid var(--ink);
+}
+
+.case-art .ph {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  height: clamp(360px, 56vh, 720px);
+}
+
+.case-cap {
+  position: absolute;
+  left: var(--pad);
+  bottom: 24px;
+  right: var(--pad);
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  z-index: 3;
+  flex-wrap: wrap;
+}
+
+.case-art .num-mega {
+  position: absolute;
+  top: 24px;
+  left: var(--pad);
+  font-family: var(--mono);
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  z-index: 3;
+}
+
+.editorial {
+  display: grid;
+  grid-template-columns: 240px 1fr 1fr;
+  gap: clamp(24px, 4vw, 80px);
+  padding: clamp(48px, 6vw, 96px) var(--pad);
+  border-bottom: 1px solid var(--ink);
+}
+
+@media (max-width: 1000px) {
+  .editorial {
+    grid-template-columns: 1fr;
+  }
+}
+
+.editorial-side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.editorial-side h2 {
+  line-height: 1;
+  max-width: 14ch;
+}
+
+.editorial-col {
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  text-transform: none;
+  letter-spacing: -0.005em;
+  max-width: 56ch;
+}
+
+.editorial-col h4 {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+
+.editorial-col p {
+  margin: 0 0 14px;
+}
+
+.editorial-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--ink);
+  margin-top: 24px;
+}
+
+.editorial-stats > div {
+  padding: 16px 18px;
+  border-right: 1px solid var(--ink);
+}
+
+.editorial-stats > div:last-child {
+  border-right: 0;
+}
+
+.editorial-stats .k {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+}
+
+.editorial-stats .v {
+  font-family: var(--mono);
+  font-size: 18px;
+  color: var(--ink);
+  letter-spacing: -0.015em;
+}
+
+.editorial-col-h-spaced {
+  margin-top: 24px !important;
+}
+
+/* Case article block — make sure each one stacks */
+.case-block + .case-block .case-art {
+  border-top: 1px solid var(--ink);
+}
+
+/* Office cells in the contacts grid */
+.office-cell {
+  gap: 12px;
+}
+
+.office-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.office-line {
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--invert-text);
+  text-transform: none;
+  letter-spacing: -0.005em;
+}
+
+.office-line.office-mail {
+  color: var(--accent-2);
+}
+
+.office-foot {
+  border-top-color: var(--invert-line);
+  color: rgba(244, 243, 238, 0.5);
+}
+
+/* Cases hero */
+.cases-hero {
+  padding-top: clamp(56px, 7vw, 120px);
+  padding-bottom: clamp(40px, 5vw, 80px);
+}
+
+/* Case scene — animated SVG facade */
+.case-scene {
+  position: relative;
+  height: clamp(360px, 56vh, 720px);
+  background: var(--invert-bg);
+  border-bottom: 1px solid var(--invert-line);
+  overflow: hidden;
+}
+
+.case-scene .scene-anim {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: clamp(24px, 4vw, 64px);
+}
+
+.case-scene::before,
+.case-scene::after {
+  content: "";
+  position: absolute;
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(244, 243, 238, 0.06) 0 1px,
+    transparent 1px 24px
+  );
+  pointer-events: none;
+}
+
+.case-scene::before {
+  inset: 0;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(244, 243, 238, 0.04) 0 1px,
+      transparent 1px 32px
+    ),
+    repeating-linear-gradient(90deg, rgba(244, 243, 238, 0.04) 0 1px, transparent 1px 32px);
+}
+
+.case-art .case-scene {
+  height: clamp(360px, 56vh, 720px);
+}
+
+.case-art .num-mega {
+  color: var(--accent-2);
+  mix-blend-mode: difference;
+}
+
+.case-cap {
+  color: var(--accent-2);
+}

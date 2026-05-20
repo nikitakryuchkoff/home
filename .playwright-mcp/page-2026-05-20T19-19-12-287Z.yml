@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary" [ref=e3]:
+      - generic [ref=e4]:
+        - link "LUMEN ARCHITECTURE — Home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e12]: LUMEN
+          - generic [ref=e13]: / ARCHITECTURE
+        - menubar [ref=e14]:
+          - menuitem "Home" [ref=e15] [cursor=pointer]
+          - menuitem "Services" [ref=e16] [cursor=pointer]
+          - menuitem "Pricing" [ref=e17] [cursor=pointer]
+        - generic [ref=e18]:
+          - group "Language" [ref=e19]:
+            - button "RU" [ref=e20] [cursor=pointer]
+            - button "EN" [pressed] [ref=e21] [cursor=pointer]
+          - link "Request quote →" [ref=e22] [cursor=pointer]:
+            - /url: /pricing
+            - text: Request quote
+            - generic [ref=e23]: →
+    - generic [ref=e25]:
+      - heading "404" [level=1] [ref=e26]
+      - heading "This page could not be found." [level=2] [ref=e28]
+    - contentinfo [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Studio" [level=5] [ref=e32]
+          - paragraph [ref=e33]: Lumen Architecture — engineering studio of architectural light for premium objects in Moscow, Dubai and Almaty.
+        - generic [ref=e34]:
+          - heading "Navigation" [level=5] [ref=e35]
+          - link "Home" [ref=e36] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e37] [cursor=pointer]:
+            - /url: /services
+          - link "Pricing" [ref=e38] [cursor=pointer]:
+            - /url: /pricing
+        - generic [ref=e39]:
+          - heading "Contacts" [level=5] [ref=e40]
+          - link "hello@lumen-arch.studio" [ref=e41] [cursor=pointer]:
+            - /url: mailto:hello@lumen-arch.studio
+          - link "+7 495 000 00 00" [ref=e42] [cursor=pointer]:
+            - /url: tel:+74950000000
+          - link "Telegram · @lumen_arch" [ref=e43] [cursor=pointer]:
+            - /url: "#"
+          - link "WhatsApp · +971 50 000 0000" [ref=e44] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e45]:
+          - heading "Offices" [level=5] [ref=e46]
+          - link "Москва, Б. Якиманка, 32" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+          - link "Dubai, DIFC, Gate Village 4" [ref=e48] [cursor=pointer]:
+            - /url: "#"
+          - link "Алматы, Аль-Фараби, 7" [ref=e49] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e50]:
+        - generic [ref=e51]: © 2014 — 2026 LUMEN ARCHITECTURE
+        - generic [ref=e52]: DMX · SPI · MEDIA · NEON · SERVICE
+        - generic [ref=e53]: All rights reserved
+  - alert [ref=e54]

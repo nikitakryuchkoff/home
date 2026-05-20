@@ -1,0 +1,312 @@
+- generic [ref=e2]:
+  - navigation "Primary" [ref=e3]:
+    - generic [ref=e4]:
+      - link "LUMEN ARCHITECTURE — Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]: LUMEN
+        - generic [ref=e13]: / ARCHITECTURE
+      - menubar [ref=e14]:
+        - menuitem "Главная" [ref=e15] [cursor=pointer]
+        - menuitem "Услуги" [ref=e16] [cursor=pointer]
+        - menuitem "Стоимость" [ref=e17] [cursor=pointer]
+        - menuitem "Кейсы" [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - group "Language" [ref=e20]:
+          - button "RU" [pressed] [ref=e21] [cursor=pointer]
+          - button "EN" [ref=e22] [cursor=pointer]
+        - link "Получить расчёт →" [ref=e23] [cursor=pointer]:
+          - /url: /pricing
+          - text: Получить расчёт
+          - generic [ref=e24]: →
+  - main [ref=e25]:
+    - paragraph [ref=e26]: "LUMEN ARCHITECTURE — инженерная студия архитектурного света. С 2014 года: DMX/SPI системы управления, пиксельные и медиафасады, фасадная анимация, гибкий неон, сервис и техобслуживание. Москва · Дубай · Алматы."
+    - region "Hero" [ref=e27]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: Инженерная студия архитектурного света
+          - heading "Свет как часть архитектуры." [level=1] [ref=e32]
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Проектируем и собираем системы управления светом для отелей, бизнес-центров и landmark-фасадов. От одной плоскости до объединённой драматургии всего здания.
+          - generic [ref=e35]:
+            - link "Рассчитать стоимость →" [ref=e36] [cursor=pointer]:
+              - /url: /pricing
+              - text: Рассчитать стоимость
+              - generic [ref=e37]: →
+            - link "Услуги →" [ref=e38] [cursor=pointer]:
+              - /url: /services
+              - text: Услуги
+              - generic [ref=e39]: →
+    - region "[ 01 / СТУДИЯ ]" [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e47]: §01
+            - generic [ref=e49]: "[ 01 / СТУДИЯ ]"
+          - heading "Инженерия, написанная вручную для каждого фасада." [level=2] [ref=e51]
+        - generic [ref=e52]:
+          - paragraph [ref=e53]: "Lumen Architecture — студия архитектурного освещения и систем управления. Мы работаем там, где свет — часть имени здания, а не декорация. С 2014 года реализовали 112 объектов: от приватных резиденций до landmark-фасадов в трёх странах."
+          - paragraph [ref=e54]: Каждый сценарий мы пишем вручную. Не используем шаблоны, не упрощаем геометрию, не подменяем индивидуальную драматургию готовыми эффектами.
+    - region "[ 03 / УСЛУГИ ]" [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e60]: §02
+            - generic [ref=e62]: "[ 03 / УСЛУГИ ]"
+          - heading "Полный цикл — от инженерии до сервисного сопровождения." [level=2] [ref=e64]
+        - generic [ref=e65]:
+          - link "DMX / SPI системы управления" [ref=e66] [cursor=pointer]:
+            - /url: /services
+            - generic [ref=e67]:
+              - generic [ref=e68]: S.01
+              - generic [ref=e69]: →
+            - img [ref=e71]
+            - heading "DMX / SPI системы управления" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Проектирование топологии, шкафы управления, синхронизация плоскостей, единая логика сценариев.
+            - generic [ref=e84]:
+              - generic [ref=e85]: Под ключ
+              - generic [ref=e86]: Подробнее →
+          - link "Пиксельный фасад / медиафасад" [ref=e87] [cursor=pointer]:
+            - /url: /services
+            - generic [ref=e88]:
+              - generic [ref=e89]: S.02
+              - generic [ref=e90]: →
+            - img [ref=e92]
+            - heading "Пиксельный фасад / медиафасад" [level=3] [ref=e103]
+            - paragraph [ref=e104]: Расчёт сетки, монтаж, контент-сценарии, калибровка по всей плоскости здания.
+            - generic [ref=e105]:
+              - generic [ref=e106]: От 1×1 до 64×64 м
+              - generic [ref=e107]: Подробнее →
+          - link "Фасадная анимация" [ref=e108] [cursor=pointer]:
+            - /url: /services
+            - generic [ref=e109]:
+              - generic [ref=e110]: S.03
+              - generic [ref=e111]: →
+            - img [ref=e113]
+            - heading "Фасадная анимация" [level=3] [ref=e118]
+            - paragraph [ref=e119]: Авторские сцены — от спокойного дыхания до сложной нарративной анимации фасада.
+            - generic [ref=e120]:
+              - generic [ref=e121]: Простая · Средняя · Сложная
+              - generic [ref=e122]: Подробнее →
+          - link "Гибкий неон" [ref=e123] [cursor=pointer]:
+            - /url: /services
+            - generic [ref=e124]:
+              - generic [ref=e125]: S.04
+              - generic [ref=e126]: →
+            - img [ref=e128]
+            - heading "Гибкий неон" [level=3] [ref=e131]
+            - paragraph [ref=e132]: Контурный свет, силуэты, акцентная подсветка карнизов, интеграция в общую DMX-логику.
+            - generic [ref=e133]:
+              - generic [ref=e134]: RGB / RGBW / monochrome
+              - generic [ref=e135]: Подробнее →
+          - link "Сервис и техобслуживание" [ref=e136] [cursor=pointer]:
+            - /url: /services
+            - generic [ref=e137]:
+              - generic [ref=e138]: S.05
+              - generic [ref=e139]: →
+            - img [ref=e141]
+            - heading "Сервис и техобслуживание" [level=3] [ref=e145]
+            - paragraph [ref=e146]: Регламентные выезды, диагностика, замена модулей, удалённый мониторинг сценариев.
+            - generic [ref=e147]:
+              - generic [ref=e148]: SLA от 4 часов
+              - generic [ref=e149]: Подробнее →
+          - link "Объединение фасадов" [ref=e150] [cursor=pointer]:
+            - /url: /services
+            - generic [ref=e151]:
+              - generic [ref=e152]: S.06
+              - generic [ref=e153]: →
+            - img [ref=e155]
+            - heading "Объединение фасадов" [level=3] [ref=e160]
+            - paragraph [ref=e161]: Синхронизация нескольких плоскостей в единый сценарий, переходы, тестирование драматургии.
+            - generic [ref=e162]:
+              - generic [ref=e163]: Считается отдельно
+              - generic [ref=e164]: Подробнее →
+    - region "[ 04 / ПОДХОД ]" [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e170]: §03
+            - generic [ref=e172]: "[ 04 / ПОДХОД ]"
+          - heading "Мы считаем стоимость через сценарий, а не через метраж." [level=2] [ref=e174]
+        - list [ref=e175]:
+          - listitem [ref=e176]:
+            - generic [ref=e177]: "01"
+            - img [ref=e179]
+            - heading "Сценарий, не прайс" [level=3] [ref=e183]
+            - paragraph [ref=e184]: Каждый объект — индивидуальная инженерная задача. Мы не берём готовые библиотеки эффектов.
+          - listitem [ref=e185]:
+            - generic [ref=e186]: "02"
+            - img [ref=e188]
+            - heading "Архитектурная логика" [level=3] [ref=e193]
+            - paragraph [ref=e194]: "Ритм сценариев работает с геометрией здания: фасадная пластика, ламели, карнизы, стеклопакеты."
+          - listitem [ref=e195]:
+            - generic [ref=e196]: "03"
+            - img [ref=e198]
+            - heading "Драматургия здания" [level=3] [ref=e203]
+            - paragraph [ref=e204]: Несколько фасадов читаются как одно целое. Переходы и фазы согласованы.
+          - listitem [ref=e205]:
+            - generic [ref=e206]: "04"
+            - img [ref=e208]
+            - heading "Долгое сопровождение" [level=3] [ref=e213]
+            - paragraph [ref=e214]: Сервис, обновление сценариев, удалённый мониторинг и подмена модулей по SLA.
+    - region "[ 07 / ВОПРОСЫ ]" [ref=e215]:
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - generic [ref=e220]: §04
+            - generic [ref=e222]: "[ 07 / ВОПРОСЫ ]"
+          - heading "Частые вопросы." [level=2] [ref=e224]
+        - list [ref=e225]:
+          - listitem [ref=e226]:
+            - heading "[ 01 ] Сколько стоит DMX система управления?" [level=3] [ref=e227]:
+              - button "[ 01 ] Сколько стоит DMX система управления?" [expanded] [ref=e228] [cursor=pointer]:
+                - generic [ref=e229]: "[ 01 ]"
+                - generic [ref=e230]: Сколько стоит DMX система управления?
+                - generic [ref=e231]: −
+            - region [ref=e232]:
+              - paragraph [ref=e234]: Стоимость DMX-системы складывается из топологии шкафов, контроллеров, количества вселенных, синхронизации плоскостей и сложности сценариев. Для премиальных объектов она формируется индивидуально и обычно начинается от 4 000 USD за объединение нескольких фасадов в единый сценарий. Сценарии под ключ считаются отдельно — простая сцена от 600 USD, сложная — до 3 000 USD за сцену.
+          - listitem [ref=e236]:
+            - heading "[ 02 ] Сколько стоит фасадная анимация?" [level=3] [ref=e237]:
+              - button "[ 02 ] Сколько стоит фасадная анимация?" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: "[ 02 ]"
+                - generic [ref=e240]: Сколько стоит фасадная анимация?
+                - generic [ref=e241]: +
+            - paragraph [ref=e243]: "Фасадная анимация считается по сценам. Простая сцена — 600 USD, средняя — 1 000 USD, сложная — 3 000 USD. На пиксельных и ламельных фасадах сцены дешевле: 200 / 600 / 1 600 USD. Объединение нескольких фасадов в единый сценарий — отдельная позиция, от 4 000 USD."
+          - listitem [ref=e245]:
+            - heading "[ 03 ] Сколько стоит 1 пиксель медиафасада?" [level=3] [ref=e246]:
+              - button "[ 03 ] Сколько стоит 1 пиксель медиафасада?" [ref=e247] [cursor=pointer]:
+                - generic [ref=e248]: "[ 03 ]"
+                - generic [ref=e249]: Сколько стоит 1 пиксель медиафасада?
+                - generic [ref=e250]: +
+            - paragraph [ref=e252]: Стоимость одного пикселя зависит от шага сетки, типа крепления, защиты от внешней среды и контроллера. Цена варьируется от нескольких долларов за пиксель в плотных уличных матрицах до десятков долларов в крупном уличном пикселе с независимой адресацией. Точную цифру мы даём после изучения геометрии фасада.
+          - listitem [ref=e254]:
+            - heading "[ 04 ] Сколько стоит 1 точка пиксельного фасада?" [level=3] [ref=e255]:
+              - button "[ 04 ] Сколько стоит 1 точка пиксельного фасада?" [ref=e256] [cursor=pointer]:
+                - generic [ref=e257]: "[ 04 ]"
+                - generic [ref=e258]: Сколько стоит 1 точка пиксельного фасада?
+                - generic [ref=e259]: +
+            - paragraph [ref=e261]: Точка ламельного и пиксельного фасада обычно стоит дешевле классического медиапикселя за счёт большего шага и упрощённой адресации. Реальная цена считается под задачу, мы выдаём её в коммерческом предложении вместе со схемой раскладки.
+          - listitem [ref=e263]:
+            - heading "[ 05 ] Сколько стоит 1 метр гибкого неона?" [level=3] [ref=e264]:
+              - button "[ 05 ] Сколько стоит 1 метр гибкого неона?" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: "[ 05 ]"
+                - generic [ref=e267]: Сколько стоит 1 метр гибкого неона?
+                - generic [ref=e268]: +
+            - paragraph [ref=e270]: "Стоимость метра неона зависит от типа: моно RGB, RGBW, IP-класса, толщины и крепежа. Базовый монохромный неон стоит существенно дешевле, чем полноцветный с пиксельным управлением. Финальная цена — после раскладки контура."
+          - listitem [ref=e272]:
+            - heading "[ 06 ] Чем отличается простая, средняя и сложная анимация?" [level=3] [ref=e273]:
+              - button "[ 06 ] Чем отличается простая, средняя и сложная анимация?" [ref=e274] [cursor=pointer]:
+                - generic [ref=e275]: "[ 06 ]"
+                - generic [ref=e276]: Чем отличается простая, средняя и сложная анимация?
+                - generic [ref=e277]: +
+            - paragraph [ref=e279]: Простая сцена — базовая волна, спокойный архитектурный акцент, минимальная ручная доработка. Средняя — зонирование, диммирование частей, несколько фаз, работа с геометрией. Сложная — индивидуальная логика, ручная работа по большому количеству элементов, длительная настройка, до двух недель на сцену.
+          - listitem [ref=e281]:
+            - heading "[ 07 ] Почему сложная анимация стоит дороже?" [level=3] [ref=e282]:
+              - button "[ 07 ] Почему сложная анимация стоит дороже?" [ref=e283] [cursor=pointer]:
+                - generic [ref=e284]: "[ 07 ]"
+                - generic [ref=e285]: Почему сложная анимация стоит дороже?
+                - generic [ref=e286]: +
+            - paragraph [ref=e288]: "Сложная сцена пишется вручную для конкретного фасада: ритм геометрии, индивидуальные группы, многослойные переходы, ночные тесты и точная калибровка. На один такой сценарий уходит до двух недель работы инженера и художника по свету."
+          - listitem [ref=e290]:
+            - heading "[ 08 ] Что входит в стоимость?" [level=3] [ref=e291]:
+              - button "[ 08 ] Что входит в стоимость?" [ref=e292] [cursor=pointer]:
+                - generic [ref=e293]: "[ 08 ]"
+                - generic [ref=e294]: Что входит в стоимость?
+                - generic [ref=e295]: +
+            - paragraph [ref=e297]: В стоимость сцены входит написание сценария, настройка на оборудовании заказчика или нашей лабе, синхронизация фаз, ночное тестирование на объекте, документация по сцене и передача исходников. Оборудование и монтаж считаются отдельно.
+          - listitem [ref=e299]:
+            - heading "[ 09 ] Почему объединение фасадов считается отдельно?" [level=3] [ref=e300]:
+              - button "[ 09 ] Почему объединение фасадов считается отдельно?" [ref=e301] [cursor=pointer]:
+                - generic [ref=e302]: "[ 09 ]"
+                - generic [ref=e303]: Почему объединение фасадов считается отдельно?
+                - generic [ref=e304]: +
+            - paragraph [ref=e306]: "Когда здание имеет 2+ фасада, появляется единая драматургия: переходы между плоскостями, согласование общей логики, тестирование сценариев на разных углах и удалённый монтажный надзор. Это отдельная инженерная работа, не сводимая к сумме сцен."
+          - listitem [ref=e308]:
+            - heading "[ 10 ] Сколько стоит обслуживание архитектурного освещения?" [level=3] [ref=e309]:
+              - button "[ 10 ] Сколько стоит обслуживание архитектурного освещения?" [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]: "[ 10 ]"
+                - generic [ref=e312]: Сколько стоит обслуживание архитектурного освещения?
+                - generic [ref=e313]: +
+            - paragraph [ref=e315]: "Стоимость сервиса формируется как годовой контракт: количество регламентных выездов, время реакции по SLA, удалённый мониторинг и склад запасных модулей. Для отелей и landmark-фасадов мы предлагаем расширенный SLA с реакцией от 4 часов."
+    - region "[ 08 / ЗАЯВКА ]" [ref=e317]:
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e322]: §05
+            - generic [ref=e324]: "[ 08 / ЗАЯВКА ]"
+          - heading "Опишите фасад — соберём расчёт за 1–2 рабочих дня." [level=2] [ref=e326]
+        - form "Форма заявки" [ref=e327]:
+          - generic [ref=e328]:
+            - generic [ref=e329]: Имя
+            - textbox "Имя" [ref=e330]:
+              - /placeholder: Иван Орлов
+          - generic [ref=e331]:
+            - generic [ref=e332]: Компания
+            - textbox "Компания" [ref=e333]:
+              - /placeholder: Devstroy Group
+          - generic [ref=e334]:
+            - generic [ref=e335]: E-mail
+            - textbox "E-mail" [ref=e336]:
+              - /placeholder: name@company.com
+          - generic [ref=e337]:
+            - generic [ref=e338]: Телефон / Telegram
+            - textbox "Телефон / Telegram" [ref=e339]:
+              - /placeholder: +7 / @username
+          - generic [ref=e340]:
+            - generic [ref=e341]: Тип объекта
+            - combobox "Тип объекта" [ref=e342]:
+              - option "Отель / резиденция" [selected]
+              - option "Бизнес-центр"
+              - option "Торговая галерея"
+              - option "Landmark"
+              - option "Ресторанный комплекс"
+              - option "Другое"
+          - generic [ref=e343]:
+            - generic [ref=e344]: Количество фасадов
+            - textbox "Количество фасадов" [ref=e345]:
+              - /placeholder: 1 — 4+
+          - generic [ref=e346]:
+            - generic [ref=e347]: Опишите задачу
+            - textbox "Опишите задачу" [ref=e348]:
+              - /placeholder: Геометрия, требования, дедлайн…
+          - generic [ref=e349]:
+            - generic [ref=e350]: "[ ОТВЕЧАЕМ В ТЕЧЕНИЕ 1–2 РАБОЧИХ ДНЕЙ ]"
+            - button "Отправить заявку →" [ref=e351] [cursor=pointer]:
+              - text: Отправить заявку
+              - generic [ref=e352]: →
+  - contentinfo [ref=e353]:
+    - generic [ref=e354]:
+      - generic [ref=e355]:
+        - heading "Студия" [level=5] [ref=e356]
+        - paragraph [ref=e357]: Lumen Architecture — инженерная студия архитектурного света для премиальных объектов в Москве, Дубае и Алматы.
+      - generic [ref=e358]:
+        - heading "Навигация" [level=5] [ref=e359]
+        - link "Главная" [ref=e360] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e361] [cursor=pointer]:
+          - /url: /services
+        - link "Стоимость" [ref=e362] [cursor=pointer]:
+          - /url: /pricing
+        - link "Кейсы" [ref=e363] [cursor=pointer]:
+          - /url: /cases
+      - generic [ref=e364]:
+        - heading "Контакты" [level=5] [ref=e365]
+        - link "hello@lumen-arch.studio" [ref=e366] [cursor=pointer]:
+          - /url: mailto:hello@lumen-arch.studio
+        - link "+7 495 000 00 00" [ref=e367] [cursor=pointer]:
+          - /url: tel:+74950000000
+        - link "Telegram · @lumen_arch" [ref=e368] [cursor=pointer]:
+          - /url: https://t.me/lumen_arch
+        - link "WhatsApp · +971 50 000 0000" [ref=e369] [cursor=pointer]:
+          - /url: https://wa.me/971500000000
+      - generic [ref=e370]:
+        - heading "Адреса" [level=5] [ref=e371]
+        - link "Москва, Б. Якиманка, 32" [ref=e372] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%91.%20%D0%AF%D0%BA%D0%B8%D0%BC%D0%B0%D0%BD%D0%BA%D0%B0%2C%2032
+        - link "Dubai, DIFC, Gate Village 4" [ref=e373] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=Dubai%2C%20DIFC%2C%20Gate%20Village%204
+        - link "Алматы, Аль-Фараби, 7" [ref=e374] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%2C%20%D0%90%D0%BB%D1%8C-%D0%A4%D0%B0%D1%80%D0%B0%D0%B1%D0%B8%2C%207
+    - generic [ref=e375]:
+      - generic [ref=e376]: © 2014 — 2026 LUMEN ARCHITECTURE
+      - generic [ref=e377]: DMX · SPI · MEDIA · NEON · SERVICE
+      - generic [ref=e378]: Все права защищены

@@ -1,0 +1,311 @@
+- generic [ref=e2]:
+  - navigation "Primary" [ref=e3]:
+    - generic [ref=e4]:
+      - link "LUMEN ARCHITECTURE — Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]: LUMEN
+        - generic [ref=e13]: / ARCHITECTURE
+      - menubar [ref=e14]:
+        - menuitem "Главная" [ref=e15] [cursor=pointer]
+        - menuitem "Услуги" [ref=e16] [cursor=pointer]
+        - menuitem "Стоимость" [ref=e17] [cursor=pointer]
+        - menuitem "Кейсы" [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - group "Language" [ref=e20]:
+          - button "RU" [pressed] [ref=e21] [cursor=pointer]
+          - button "EN" [ref=e22] [cursor=pointer]
+        - link "Получить расчёт →" [ref=e23] [cursor=pointer]:
+          - /url: /pricing
+          - text: Получить расчёт
+          - generic [ref=e24]: →
+  - main [ref=e25]:
+    - region "Объекты, в которых свет работает на здание." [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: "[ СТРАНИЦА · КЕЙСЫ И КОНТАКТЫ ]"
+        - heading "Объекты, в которых свет работает на здание." [level=1] [ref=e30]
+        - paragraph [ref=e31]: "Editorial-разворот по пяти знаковым объектам: задача, инженерное решение, результат и драйверы стоимости — без шаблонов."
+    - article "Отель Vasiliev на двух фасадах" [ref=e32]:
+      - generic [ref=e33]:
+        - img [ref=e36]
+        - generic [ref=e116]: "01"
+        - generic [ref=e117]:
+          - generic [ref=e118]: "[ Отель · 5★ · 2 фасада ]"
+          - generic [ref=e119]: Сцен · 7 Плоскостей · 2 Бюджет · $22.4k
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: 01 / 05
+          - heading "Отель Vasiliev на двух фасадах" [level=2] [ref=e123]
+          - generic [ref=e124]: Отель · 5★ · 2 фасада
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: Сцен
+              - generic [ref=e128]: "7"
+            - generic [ref=e129]:
+              - generic [ref=e130]: Плоскостей
+              - generic [ref=e131]: "2"
+            - generic [ref=e132]:
+              - generic [ref=e133]: Бюджет
+              - generic [ref=e134]: $22.4k
+        - generic [ref=e135]:
+          - heading "// ЗАДАЧА" [level=4] [ref=e136]
+          - paragraph [ref=e137]: Объединить два фасада отеля в единую световую драматургию, не нарушая ночной режим жилой зоны.
+          - heading "// РЕШЕНИЕ" [level=4] [ref=e138]
+          - paragraph [ref=e139]: Спроектирована DMX-сеть на две вселенные, написаны 7 авторских сцен и единая ночная программа с тихим режимом после 23:00.
+        - generic [ref=e140]:
+          - heading "// РЕЗУЛЬТАТ" [level=4] [ref=e141]
+          - paragraph [ref=e142]: Объект получил собственный световой подпись на обеих сторонах квартала. Скорость подмены модулей по SLA — 4 часа.
+          - heading "// ДРАЙВЕРЫ СТОИМОСТИ" [level=4] [ref=e143]
+          - paragraph [ref=e144]: "Стоимость определила: ночная регламентация, ручная сложная сцена и объединение фасадов."
+    - article "Северный портал, пиксельные ламели" [ref=e145]:
+      - generic [ref=e146]:
+        - img [ref=e149]
+        - generic [ref=e229]: "02"
+        - generic [ref=e230]:
+          - generic [ref=e231]: "[ Бизнес-центр · ламели ]"
+          - generic [ref=e232]: Точек · 1 536 Сцен · 12 Бюджет · $8.6k
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - generic [ref=e235]: 02 / 05
+          - heading "Северный портал, пиксельные ламели" [level=2] [ref=e236]
+          - generic [ref=e237]: Бизнес-центр · ламели
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - generic [ref=e240]: Точек
+              - generic [ref=e241]: 1 536
+            - generic [ref=e242]:
+              - generic [ref=e243]: Сцен
+              - generic [ref=e244]: "12"
+            - generic [ref=e245]:
+              - generic [ref=e246]: Бюджет
+              - generic [ref=e247]: $8.6k
+        - generic [ref=e248]:
+          - heading "// ЗАДАЧА" [level=4] [ref=e249]
+          - paragraph [ref=e250]: Превратить ламельную обшивку BC в управляемый пиксельный фасад без потери архитектурного ритма.
+          - heading "// РЕШЕНИЕ" [level=4] [ref=e251]
+          - paragraph [ref=e252]: Размечена сетка 64×24, написано 10 базовых и 2 ивент-сценария, интеграция с ивент-календарём арендаторов.
+        - generic [ref=e253]:
+          - heading "// РЕЗУЛЬТАТ" [level=4] [ref=e254]
+          - paragraph [ref=e255]: Здание стало точкой ориентира района. Сценарии переключаются в 1 клик через админ-панель.
+          - heading "// ДРАЙВЕРЫ СТОИМОСТИ" [level=4] [ref=e256]
+          - paragraph [ref=e257]: "Стоимость определила: плотность сетки, объём авторских сцен, интеграция с CRM арендаторов."
+    - article "Гастрокластер «Меридиан»" [ref=e258]:
+      - generic [ref=e259]:
+        - img [ref=e262]
+        - generic [ref=e342]: "03"
+        - generic [ref=e343]:
+          - generic [ref=e344]: "[ Ресторанный комплекс · неон ]"
+          - generic [ref=e345]: Контур · 412 м Сцен · 9 Бюджет · $14.0k
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - generic [ref=e348]: 03 / 05
+          - heading "Гастрокластер «Меридиан»" [level=2] [ref=e349]
+          - generic [ref=e350]: Ресторанный комплекс · неон
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]: Контур
+              - generic [ref=e354]: 412 м
+            - generic [ref=e355]:
+              - generic [ref=e356]: Сцен
+              - generic [ref=e357]: "9"
+            - generic [ref=e358]:
+              - generic [ref=e359]: Бюджет
+              - generic [ref=e360]: $14.0k
+        - generic [ref=e361]:
+          - heading "// ЗАДАЧА" [level=4] [ref=e362]
+          - paragraph [ref=e363]: Подсветить три ресторана единой ночной идентикой, сохранив автономию каждого фасада.
+          - heading "// РЕШЕНИЕ" [level=4] [ref=e364]
+          - paragraph [ref=e365]: Контурный гибкий неон, три независимых группы DMX, общая «ужинная» сцена в 19:30.
+        - generic [ref=e366]:
+          - heading "// РЕЗУЛЬТАТ" [level=4] [ref=e367]
+          - paragraph [ref=e368]: Кластер читается как единое место с тремя характерами. Поток гостей в часы общей сцены вырос на 18%.
+          - heading "// ДРАЙВЕРЫ СТОИМОСТИ" [level=4] [ref=e369]
+          - paragraph [ref=e370]: "Стоимость определила: длина контура, синхронизация трёх фасадов, авторский ритм общей сцены."
+    - article "Галерея «Корсо», окна второго света" [ref=e371]:
+      - generic [ref=e372]:
+        - img [ref=e375]
+        - generic [ref=e455]: "04"
+        - generic [ref=e456]:
+          - generic [ref=e457]: "[ Торговая галерея · фасадная анимация ]"
+          - generic [ref=e458]: Сцен · 5 Окон · 84 Бюджет · $11.4k
+      - generic [ref=e459]:
+        - generic [ref=e460]:
+          - generic [ref=e461]: 04 / 05
+          - heading "Галерея «Корсо», окна второго света" [level=2] [ref=e462]
+          - generic [ref=e463]: Торговая галерея · фасадная анимация
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - generic [ref=e466]: Сцен
+              - generic [ref=e467]: "5"
+            - generic [ref=e468]:
+              - generic [ref=e469]: Окон
+              - generic [ref=e470]: "84"
+            - generic [ref=e471]:
+              - generic [ref=e472]: Бюджет
+              - generic [ref=e473]: $11.4k
+        - generic [ref=e474]:
+          - heading "// ЗАДАЧА" [level=4] [ref=e475]
+          - paragraph [ref=e476]: Сделать фасад галереи самостоятельным ночным аттракционом, читаемым с трёх ракурсов.
+          - heading "// РЕШЕНИЕ" [level=4] [ref=e477]
+          - paragraph [ref=e478]: Световая динамика по окнам, 5 авторских сцен, программа сезонных переходов, сложная сцена «Новый год».
+        - generic [ref=e479]:
+          - heading "// РЕЗУЛЬТАТ" [level=4] [ref=e480]
+          - paragraph [ref=e481]: Сезонная сцена даёт галерее главную медиа-публикацию каждый декабрь.
+          - heading "// ДРАЙВЕРЫ СТОИМОСТИ" [level=4] [ref=e482]
+          - paragraph [ref=e483]: "Стоимость определила: индивидуальная сложная сцена и сезонная программа."
+    - article "Башня «Атлас», объединение трёх плоскостей" [ref=e484]:
+      - generic [ref=e485]:
+        - img [ref=e488]
+        - generic [ref=e568]: "05"
+        - generic [ref=e569]:
+          - generic [ref=e570]: "[ Landmark · 3 плоскости ]"
+          - generic [ref=e571]: Плоскостей · 3 Сцен · 14 Бюджет · $36.8k
+      - generic [ref=e572]:
+        - generic [ref=e573]:
+          - generic [ref=e574]: 05 / 05
+          - heading "Башня «Атлас», объединение трёх плоскостей" [level=2] [ref=e575]
+          - generic [ref=e576]: Landmark · 3 плоскости
+          - generic [ref=e577]:
+            - generic [ref=e578]:
+              - generic [ref=e579]: Плоскостей
+              - generic [ref=e580]: "3"
+            - generic [ref=e581]:
+              - generic [ref=e582]: Сцен
+              - generic [ref=e583]: "14"
+            - generic [ref=e584]:
+              - generic [ref=e585]: Бюджет
+              - generic [ref=e586]: $36.8k
+        - generic [ref=e587]:
+          - heading "// ЗАДАЧА" [level=4] [ref=e588]
+          - paragraph [ref=e589]: Создать узнаваемую световую идентику высотного landmark-объекта на трёх ракурсах одновременно.
+          - heading "// РЕШЕНИЕ" [level=4] [ref=e590]
+          - paragraph [ref=e591]: "Гибрид: пиксельный фасад на гранях + динамика на парапете, объединение трёх плоскостей и сценарии «час пик» / «ночь»."
+        - generic [ref=e592]:
+          - heading "// РЕЗУЛЬТАТ" [level=4] [ref=e593]
+          - paragraph [ref=e594]: Башня стала ночным ориентиром района. Программа гибко перестраивается под городские события.
+          - heading "// ДРАЙВЕРЫ СТОИМОСТИ" [level=4] [ref=e595]
+          - paragraph [ref=e596]: "Стоимость определила: 3-плоскостная синхронизация, 4 сложные сцены, ивент-режимы."
+    - region "[ ЗАЯВКА · РАСЧЁТ ЗА 2 ДНЯ ]" [ref=e597]:
+      - generic [ref=e598]:
+        - generic [ref=e599]:
+          - generic [ref=e602]: "[ ЗАЯВКА · РАСЧЁТ ЗА 2 ДНЯ ]"
+          - generic [ref=e603]:
+            - heading "Опишите фасад — соберём расчёт." [level=2] [ref=e604]
+            - paragraph [ref=e605]: После заявки мы возвращаемся в течение 1–2 рабочих дней с разбором задачи и предварительной партитурой сцен.
+        - form "Форма заявки" [ref=e606]:
+          - generic [ref=e607]:
+            - generic [ref=e608]: Имя
+            - textbox "Имя" [ref=e609]:
+              - /placeholder: Иван Орлов
+          - generic [ref=e610]:
+            - generic [ref=e611]: Компания
+            - textbox "Компания" [ref=e612]:
+              - /placeholder: Devstroy Group
+          - generic [ref=e613]:
+            - generic [ref=e614]: E-mail
+            - textbox "E-mail" [ref=e615]:
+              - /placeholder: name@company.com
+          - generic [ref=e616]:
+            - generic [ref=e617]: Телефон / Telegram
+            - textbox "Телефон / Telegram" [ref=e618]:
+              - /placeholder: +7 / @username
+          - generic [ref=e619]:
+            - generic [ref=e620]: Тип объекта
+            - combobox "Тип объекта" [ref=e621]:
+              - option "Отель / резиденция" [selected]
+              - option "Бизнес-центр"
+              - option "Торговая галерея"
+              - option "Landmark"
+              - option "Ресторанный комплекс"
+              - option "Другое"
+          - generic [ref=e622]:
+            - generic [ref=e623]: Количество фасадов
+            - textbox "Количество фасадов" [ref=e624]:
+              - /placeholder: 1 — 4+
+          - generic [ref=e625]:
+            - generic [ref=e626]: Опишите задачу
+            - textbox "Опишите задачу" [ref=e627]:
+              - /placeholder: Геометрия, требования, дедлайн…
+          - generic [ref=e628]:
+            - generic [ref=e629]: "[ ОТВЕЧАЕМ В ТЕЧЕНИЕ 1–2 РАБОЧИХ ДНЕЙ ]"
+            - button "Отправить заявку →" [ref=e630] [cursor=pointer]:
+              - text: Отправить заявку
+              - generic [ref=e631]: →
+    - region "[ КОНТАКТЫ · ШТАБ-КВАРТИРЫ ]" [ref=e632]:
+      - generic [ref=e633]:
+        - generic [ref=e634]:
+          - generic [ref=e637]: "[ КОНТАКТЫ · ШТАБ-КВАРТИРЫ ]"
+          - heading "Москва · Дубай · Алматы." [level=2] [ref=e639]
+        - generic [ref=e640]:
+          - article [ref=e641]:
+            - generic [ref=e642]: MOW
+            - heading "Москва" [level=3] [ref=e643]
+            - generic [ref=e644]:
+              - generic [ref=e645]: Большая Якиманка, 32
+              - link "+7 495 000 00 00" [ref=e646] [cursor=pointer]:
+                - /url: tel:+74950000000
+              - link "mow@lumen-arch.studio" [ref=e647] [cursor=pointer]:
+                - /url: mailto:mow@lumen-arch.studio
+            - generic [ref=e648]:
+              - generic [ref=e649]: ПН-ПТ · 10:00 — 20:00
+              - generic [ref=e650]: Тел / TG / WA
+          - article [ref=e651]:
+            - generic [ref=e652]: DXB
+            - heading "Дубай" [level=3] [ref=e653]
+            - generic [ref=e654]:
+              - generic [ref=e655]: DIFC, Gate Village 4
+              - link "+971 50 000 0000" [ref=e656] [cursor=pointer]:
+                - /url: tel:+971500000000
+              - link "dxb@lumen-arch.studio" [ref=e657] [cursor=pointer]:
+                - /url: mailto:dxb@lumen-arch.studio
+            - generic [ref=e658]:
+              - generic [ref=e659]: ПН-ПТ · 10:00 — 20:00
+              - generic [ref=e660]: Тел / TG / WA
+          - article [ref=e661]:
+            - generic [ref=e662]: ALA
+            - heading "Алматы" [level=3] [ref=e663]
+            - generic [ref=e664]:
+              - generic [ref=e665]: Аль-Фараби, 7
+              - link "+7 727 000 00 00" [ref=e666] [cursor=pointer]:
+                - /url: tel:+77270000000
+              - link "ala@lumen-arch.studio" [ref=e667] [cursor=pointer]:
+                - /url: mailto:ala@lumen-arch.studio
+            - generic [ref=e668]:
+              - generic [ref=e669]: ПН-ПТ · 10:00 — 20:00
+              - generic [ref=e670]: Тел / TG / WA
+  - contentinfo [ref=e671]:
+    - generic [ref=e672]:
+      - generic [ref=e673]:
+        - heading "Студия" [level=5] [ref=e674]
+        - paragraph [ref=e675]: Lumen Architecture — инженерная студия архитектурного света для премиальных объектов в Москве, Дубае и Алматы.
+      - generic [ref=e676]:
+        - heading "Навигация" [level=5] [ref=e677]
+        - link "Главная" [ref=e678] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e679] [cursor=pointer]:
+          - /url: /services
+        - link "Стоимость" [ref=e680] [cursor=pointer]:
+          - /url: /pricing
+        - link "Кейсы" [ref=e681] [cursor=pointer]:
+          - /url: /cases
+      - generic [ref=e682]:
+        - heading "Контакты" [level=5] [ref=e683]
+        - link "hello@lumen-arch.studio" [ref=e684] [cursor=pointer]:
+          - /url: mailto:hello@lumen-arch.studio
+        - link "+7 495 000 00 00" [ref=e685] [cursor=pointer]:
+          - /url: tel:+74950000000
+        - link "Telegram · @lumen_arch" [ref=e686] [cursor=pointer]:
+          - /url: "#"
+        - link "WhatsApp · +971 50 000 0000" [ref=e687] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e688]:
+        - heading "Адреса" [level=5] [ref=e689]
+        - link "Москва, Б. Якиманка, 32" [ref=e690] [cursor=pointer]:
+          - /url: "#"
+        - link "Dubai, DIFC, Gate Village 4" [ref=e691] [cursor=pointer]:
+          - /url: "#"
+        - link "Алматы, Аль-Фараби, 7" [ref=e692] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e693]:
+      - generic [ref=e694]: © 2014 — 2026 LUMEN ARCHITECTURE
+      - generic [ref=e695]: DMX · SPI · MEDIA · NEON · SERVICE
+      - generic [ref=e696]: Все права защищены

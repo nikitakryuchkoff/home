@@ -1,0 +1,32 @@
+/* Marquee ticker */
+.ticker-wrap {
+  background: var(--ink);
+  color: var(--invert-text);
+  border-bottom: 1px solid var(--ink);
+  overflow: hidden;
+  padding: 14px 0;
+}
+
+.ticker {
+  display: flex;
+  gap: 56px;
+  white-space: nowrap;
+  animation: tickerKF 70s linear infinite;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ticker .marker {
+  color: var(--accent-2);
+}
+
+@keyframes tickerKF {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

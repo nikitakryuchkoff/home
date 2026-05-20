@@ -1,0 +1,198 @@
+/* 12-col grid + cell */
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1px;
+  background: var(--paper-line);
+  border: 1px solid var(--paper-line);
+}
+
+.span-3 {
+  grid-column: span 3;
+}
+.span-4 {
+  grid-column: span 4;
+}
+.span-6 {
+  grid-column: span 6;
+}
+.span-8 {
+  grid-column: span 8;
+}
+.span-12 {
+  grid-column: span 12;
+}
+
+@media (max-width: 1000px) {
+  .grid-12 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .span-3 {
+    grid-column: span 3;
+  }
+  .span-4,
+  .span-6,
+  .span-8,
+  .span-12 {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-12 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .span-3,
+  .span-4,
+  .span-6,
+  .span-8,
+  .span-12 {
+    grid-column: span 2;
+  }
+}
+
+.grid-12 > * {
+  background: var(--bg);
+}
+
+.section.invert .grid-12 {
+  background: var(--invert-line);
+  border-color: var(--invert-line);
+}
+
+.section.invert .grid-12 > * {
+  background: var(--invert-bg);
+}
+
+/* Cells inside the grid */
+.cell {
+  padding: clamp(20px, 2vw, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  min-height: 220px;
+  transition:
+    background var(--motion),
+    color var(--motion);
+}
+
+.cell-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cell-link:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--ink);
+  background: var(--bg-2);
+}
+
+.section.invert .cell-link:focus-visible {
+  box-shadow: inset 0 0 0 2px var(--invert-text);
+}
+
+.cell-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  transition:
+    background var(--motion),
+    color var(--motion),
+    border-color var(--motion);
+  margin-bottom: 4px;
+  flex-shrink: 0;
+}
+
+.cell-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.section.invert .cell-icon {
+  border-color: var(--invert-line);
+  color: var(--invert-text);
+}
+
+.cell-link:hover .cell-icon {
+  background: var(--accent-2);
+  color: var(--invert-bg);
+  border-color: var(--accent-2);
+}
+
+.section.invert .cell-link:hover .cell-icon {
+  background: var(--invert-text);
+  color: var(--invert-bg);
+  border-color: var(--invert-text);
+}
+
+.cell-h-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.cell-foot {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px dashed var(--line);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.cell-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.cell-foot {
+  transition:
+    border-top-color var(--motion),
+    color var(--motion);
+}
+
+.cell-num,
+.cell-link .body,
+.cell-link .body p {
+  transition: color var(--motion);
+}
+
+.cell-link:hover {
+  background: var(--ink);
+  color: var(--invert-text);
+}
+
+.cell-link:hover .cell-foot {
+  border-top-color: var(--invert-line);
+  color: var(--invert-text-dim);
+}
+
+.cell-link:hover .cell-num {
+  color: var(--accent-2);
+}
+
+.cell-link:hover .body,
+.cell-link:hover .body p {
+  color: var(--invert-text-soft);
+}
+
+.section.invert .cell-foot {
+  border-top-color: var(--invert-line);
+  color: var(--invert-text-dim);
+}

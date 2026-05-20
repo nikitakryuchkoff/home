@@ -1,0 +1,33 @@
+/* Design tokens — paper-light brutalist palette */
+:root {
+  --bg: #fafaf7;
+  --bg-2: #f2f1ec;
+  --bg-3: #ebeae3;
+  --paper-line: #e4e2d8;
+  --ink: #0a0a0a;
+  --ink-2: #1a1a1a;
+  --ink-soft: #2a2a2a;
+  /* WCAG AA: --muted ≈ 5.6:1 on bg; --muted-2 darkened from #8e8c84 → #74726a (~4.7:1) */
+  --muted: #5f5d56;
+  --muted-2: #74726a;
+  --line: #cdcbc1;
+  --line-2: #b8b6ac;
+  --accent: #0a0a0a;
+  --accent-2: #f4f3ee;
+  --invert-bg: #0a0a0a;
+  --invert-text: #f4f3ee;
+  --invert-text-soft: rgba(244, 243, 238, 0.72);
+  --invert-text-dim: rgba(244, 243, 238, 0.56);
+  --invert-line: #2a2a2a;
+
+  --mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --pad: clamp(20px, 4vw, 80px);
+  --max: 1640px;
+
+  /* Motion + focus tokens */
+  --motion-fast: 0.15s ease;
+  --motion: 0.22s ease;
+  --motion-slow: 0.4s ease;
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--ink);
+  --focus-ring-invert: 0 0 0 2px var(--invert-bg), 0 0 0 4px var(--invert-text);
+}

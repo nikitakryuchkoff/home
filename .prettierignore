@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+build
+dist
+coverage
+public
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+_design_pkg
+next-env.d.ts

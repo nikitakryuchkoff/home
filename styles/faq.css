@@ -1,0 +1,115 @@
+/* FAQ accordion */
+.faq-item {
+  border-top: 1px solid var(--ink);
+}
+
+.faq-item:last-child {
+  border-bottom: 1px solid var(--ink);
+}
+
+.faq-q {
+  display: grid;
+  grid-template-columns: 80px 1fr 32px;
+  gap: 24px;
+  align-items: center;
+  /* Make the entire row a button — semantic, keyboard-accessible, single click target */
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  padding: 24px 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: background var(--motion-fast);
+}
+
+.faq-q:hover {
+  background: var(--bg-2);
+}
+
+.faq-q:focus-visible {
+  outline: none;
+  background: var(--bg-2);
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+.faq-q .idx {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+
+.faq-q .title {
+  font-size: clamp(15px, 1.4vw, 19px);
+  letter-spacing: -0.015em;
+  text-transform: none;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.faq-q .toggle {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--ink);
+  display: grid;
+  place-items: center;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink);
+  transition:
+    background var(--motion),
+    color var(--motion),
+    transform var(--motion);
+  margin-right: 16px;
+}
+
+.faq-item.open .toggle {
+  background: var(--ink);
+  color: var(--invert-text);
+  transform: rotate(180deg);
+}
+
+.faq-a {
+  display: grid;
+  grid-template-columns: 80px 1fr 32px;
+  gap: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    max-height var(--motion-slow),
+    padding var(--motion-slow);
+  padding: 0 16px;
+}
+
+.faq-item.open .faq-a {
+  max-height: 800px;
+  padding: 0 16px 28px;
+}
+
+.faq-a-text {
+  grid-column: 2 / 3;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 70ch;
+  text-transform: none;
+  letter-spacing: -0.005em;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .faq-q,
+  .faq-a {
+    grid-template-columns: 56px 1fr 32px;
+    gap: 16px;
+  }
+  .faq-q .idx {
+    padding-left: 12px;
+  }
+  .faq-q {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,235 @@
+/* Top navigation */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(244, 243, 238, 0.88);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border-bottom: 1px solid var(--ink);
+}
+
+.nav-inner {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  height: 80px;
+  gap: 32px;
+}
+
+@media (max-width: 600px) {
+  .nav-inner {
+    height: 64px;
+    gap: 16px;
+  }
+}
+
+.nav-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.nav-brand .mark {
+  display: inline-flex;
+  gap: 2px;
+  align-items: center;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.nav-brand .mark span {
+  width: 2px;
+  background: var(--ink);
+  display: inline-block;
+}
+
+.nav-brand .mark span:nth-child(1) {
+  height: 8px;
+}
+.nav-brand .mark span:nth-child(2) {
+  height: 14px;
+}
+.nav-brand .mark span:nth-child(3) {
+  height: 18px;
+}
+.nav-brand .mark span:nth-child(4) {
+  height: 12px;
+}
+.nav-brand .mark span:nth-child(5) {
+  height: 16px;
+}
+
+.nav-brand .sub {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 10px 16px;
+  color: var(--muted);
+  border-left: 1px solid var(--paper-line);
+  transition:
+    color var(--motion),
+    background var(--motion-fast);
+  position: relative;
+}
+
+.nav-links .nav-link:last-child {
+  border-right: 1px solid var(--paper-line);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--ink);
+}
+
+.nav-link.active {
+  background: var(--bg-2);
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: -1px;
+  height: 2px;
+  background: var(--ink);
+}
+
+.nav-link:focus-visible {
+  outline: none;
+  background: var(--bg-2);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+.nav-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-switch {
+  font-family: var(--mono);
+  font-size: 11px;
+  display: flex;
+  border: 1px solid var(--ink);
+  flex-shrink: 0;
+}
+
+.lang-switch button {
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+  padding: 6px 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+.lang-switch button {
+  transition:
+    background var(--motion-fast),
+    color var(--motion-fast);
+  cursor: pointer;
+}
+
+.lang-switch button.on {
+  color: var(--invert-text);
+  background: var(--ink);
+}
+
+.lang-switch button:not(.on):hover {
+  background: var(--bg-2);
+}
+
+.lang-switch button:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+/* Tablet — keep links visible, allow horizontal scroll if needed.
+   Previously links were fully hidden, leaving mobile users stranded. */
+@media (max-width: 900px) {
+  .nav-inner {
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+  }
+  .nav-links {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    justify-content: flex-end;
+  }
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-link {
+    padding: 8px 12px;
+    font-size: 11px;
+    border-left: 0;
+    flex-shrink: 0;
+  }
+  .nav-links .nav-link:last-child {
+    border-right: 0;
+  }
+}
+
+/* Mobile — keep nav-links accessible via horizontal scroll; tighten chrome */
+@media (max-width: 600px) {
+  .nav-inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    row-gap: 8px;
+  }
+  .nav-brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .nav-actions {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+  }
+  .nav-links {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    border-top: 1px solid var(--paper-line);
+    padding-top: 4px;
+    margin: 0 calc(-1 * var(--pad));
+    padding-left: var(--pad);
+    padding-right: var(--pad);
+  }
+  .nav-brand .sub {
+    display: none;
+  }
+  .nav-actions .btn {
+    min-width: auto;
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+}

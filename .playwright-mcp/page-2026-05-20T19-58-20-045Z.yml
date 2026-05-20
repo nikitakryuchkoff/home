@@ -1,0 +1,269 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary" [ref=e3]:
+      - generic [ref=e4]:
+        - link "LUMEN ARCHITECTURE — Home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e12]: LUMEN
+          - generic [ref=e13]: / ARCHITECTURE
+        - menubar [ref=e14]:
+          - menuitem "Главная" [ref=e15] [cursor=pointer]
+          - menuitem "Услуги" [ref=e16] [cursor=pointer]
+          - menuitem "Стоимость" [ref=e17] [cursor=pointer]
+        - generic [ref=e18]:
+          - group "Language" [ref=e19]:
+            - button "RU" [pressed] [ref=e20] [cursor=pointer]
+            - button "EN" [ref=e21] [cursor=pointer]
+          - link "Получить расчёт →" [ref=e22] [cursor=pointer]:
+            - /url: /pricing
+            - text: Получить расчёт
+            - generic [ref=e23]: →
+    - main [ref=e24]:
+      - region "Стоимость DMX-систем, фасадной анимации и медиафасадов." [ref=e25]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "[ СТРАНИЦА · СТОИМОСТЬ ]"
+          - heading "Стоимость DMX-систем, фасадной анимации и медиафасадов." [level=1] [ref=e29]
+          - paragraph [ref=e30]: Понятный экспертный ответ на вопросы, которые задают в Google и ChatGPT после получения коммерческого предложения. Без скрытого прайса. Без шаблонов.
+      - region "[ ТАРИФНАЯ СЕТКА ]" [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e36]: §01
+              - generic [ref=e38]: "[ ТАРИФНАЯ СЕТКА ]"
+            - heading "Цены за одну сцену." [level=2] [ref=e40]
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: Сцена
+              - generic [ref=e45]: СВЕТ
+              - generic [ref=e47]: ПИКСЕЛЬ
+              - generic [ref=e49]: СРОК
+              - generic [ref=e50]: ХАРАКТЕР
+            - generic [ref=e51]:
+              - generic [ref=e52]: S.01 · Простая
+              - generic [ref=e54]: $600
+              - generic [ref=e56]: $200
+              - generic [ref=e57]: 3–5 дней
+              - generic [ref=e58]: Базовая динамика, спокойный архитектурный акцент
+            - generic [ref=e59]:
+              - generic [ref=e60]: S.02 · Средняя
+              - generic [ref=e62]: $1 000
+              - generic [ref=e64]: $600
+              - generic [ref=e65]: 5–8 дней
+              - generic [ref=e66]: Зонирование, несколько фаз, работа с геометрией
+            - generic [ref=e67]:
+              - generic [ref=e68]: S.03 · Сложная
+              - generic [ref=e70]: $3 000
+              - generic [ref=e72]: $1 600
+              - generic [ref=e73]: до 2 недель
+              - generic [ref=e74]: Авторская работа, многослойные переходы, ночные тесты
+            - generic [ref=e75]:
+              - generic [ref=e76]: S.04 · Объединение фасадов
+              - generic [ref=e78]: от $4 000
+              - generic [ref=e79]: — —
+              - generic [ref=e80]: по объекту
+              - generic [ref=e81]: Единая драматургия 2+ плоскостей, синхронизация фаз
+      - region "[ ОТВЕТЫ ]" [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e87]: §02
+              - generic [ref=e89]: "[ ОТВЕТЫ ]"
+            - generic [ref=e90]:
+              - heading "Ответы на вопросы по стоимости." [level=2] [ref=e91]
+              - paragraph [ref=e92]: Прямые экспертные ответы — те же, что мы отправляем в коммерческих предложениях.
+          - generic [ref=e93]:
+            - article [ref=e94]:
+              - generic [ref=e95]: "01"
+              - generic [ref=e96]:
+                - heading "Сколько стоит DMX система управления" [level=3] [ref=e97]
+                - paragraph [ref=e98]: DMX-управление — это инженерия, а не коробка.
+                - generic [ref=e99]:
+                  - paragraph [ref=e100]: "DMX-система управления — это шкаф, контроллеры, разводка, вселенные, синхронизация плоскостей и логика сценариев. Готового прайса нет: каждое здание считается отдельно."
+                  - paragraph [ref=e101]: "Для премиальных объектов мы фиксируем стартовый порог: объединение нескольких фасадов в единый сценарий — от 4 000 USD. Сами сцены считаются отдельно по тарифной сетке ниже."
+            - article [ref=e102]:
+              - generic [ref=e103]: "02"
+              - generic [ref=e104]:
+                - heading "Стоимость фасадной анимации" [level=3] [ref=e105]
+                - paragraph [ref=e106]: Сцена — атомарная единица расчёта.
+                - generic [ref=e107]:
+                  - paragraph [ref=e108]: Мы считаем фасадную анимацию по сценам, а не по метражу. Это позволяет точно отделять простую динамику от сложной авторской работы и не платить за объём, которого нет.
+                  - paragraph [ref=e109]: Для окон и фасадной светодинамики тарифы выше — там больше каналов и тоньше ручная работа. Для пиксельных ламелей сцены дешевле за счёт стандартизованной адресации.
+            - article [ref=e110]:
+              - generic [ref=e111]: "03"
+              - generic [ref=e112]:
+                - heading "Цена пиксельного фасада" [level=3] [ref=e113]
+                - paragraph [ref=e114]: Сетка, шаг, среда, контроллер.
+                - generic [ref=e115]:
+                  - paragraph [ref=e116]: Цена пиксельного фасада складывается из количества точек, шага сетки, IP-класса, типа крепления и контроллера. Точные цифры мы даём только после изучения геометрии и условий монтажа.
+                  - paragraph [ref=e117]: "Сцены для пиксельного фасада считаются по тарифу ниже: простая — 200 USD, средняя — 600 USD, сложная — 1 600 USD. Это позволяет точно планировать бюджет на контент."
+            - article [ref=e118]:
+              - generic [ref=e119]: "04"
+              - generic [ref=e120]:
+                - heading "Почему сложная анимация стоит дороже" [level=3] [ref=e121]
+                - paragraph [ref=e122]: Сложная сцена — это две недели ручной работы.
+                - paragraph [ref=e124]: Сложная сцена пишется индивидуально под фасад. Это ручная работа с большим количеством элементов, многослойные переходы, ночные тесты и точная калибровка ритма анимации к геометрии.
+            - article [ref=e125]:
+              - generic [ref=e126]: "05"
+              - generic [ref=e127]:
+                - heading "Почему объединение фасадов считается отдельно" [level=3] [ref=e128]
+                - paragraph [ref=e129]: Здание читается как одно целое.
+                - paragraph [ref=e131]: Когда у объекта 2+ фасада, мы синхронизируем плоскости в единую драматургию. Это переходы между сторонами, согласование фаз, тестирование с нескольких ракурсов и удалённый монтажный контроль.
+      - region "[ ПРИМЕРЫ РАСЧЁТА ]" [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e137]: §03
+              - generic [ref=e139]: "[ ПРИМЕРЫ РАСЧЁТА ]"
+            - heading "Как складывается итог." [level=2] [ref=e141]
+          - generic [ref=e142]:
+            - article [ref=e143]:
+              - generic [ref=e144]: EX.01
+              - heading "Бутик-отель, два фасада" [level=3] [ref=e145]
+              - generic [ref=e146]: Окна / световая динамика · 2 плоскости
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - generic [ref=e149]: Простая сцена × 4
+                  - generic [ref=e150]: $2 400
+                - generic [ref=e151]:
+                  - generic [ref=e152]: Средняя сцена × 2
+                  - generic [ref=e153]: $2 000
+                - generic [ref=e154]:
+                  - generic [ref=e155]: Сложная сцена × 1
+                  - generic [ref=e156]: $3 000
+                - generic [ref=e157]:
+                  - generic [ref=e158]: Объединение фасадов
+                  - generic [ref=e159]: $4 000
+              - generic [ref=e160]:
+                - generic [ref=e161]: ИТОГО
+                - generic [ref=e162]: $11 400
+            - article [ref=e163]:
+              - generic [ref=e164]: EX.02
+              - heading "Бизнес-центр с пиксельными ламелями" [level=3] [ref=e165]
+              - generic [ref=e166]: Пиксельный фасад · 1 плоскость
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Простая сцена × 6
+                  - generic [ref=e170]: $1 200
+                - generic [ref=e171]:
+                  - generic [ref=e172]: Средняя сцена × 3
+                  - generic [ref=e173]: $1 800
+                - generic [ref=e174]:
+                  - generic [ref=e175]: Сложная сцена × 1
+                  - generic [ref=e176]: $1 600
+              - generic [ref=e177]:
+                - generic [ref=e178]: ИТОГО
+                - generic [ref=e179]: $4 600
+            - article [ref=e180]:
+              - generic [ref=e181]: EX.03
+              - heading "Landmark с тремя плоскостями" [level=3] [ref=e182]
+              - generic [ref=e183]: Световая динамика + пиксель · 3 плоскости
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: Сложная сцена × 3 (свет)
+                  - generic [ref=e187]: $9 000
+                - generic [ref=e188]:
+                  - generic [ref=e189]: Сложная сцена × 2 (пиксель)
+                  - generic [ref=e190]: $3 200
+                - generic [ref=e191]:
+                  - generic [ref=e192]: Средняя сцена × 4
+                  - generic [ref=e193]: $4 000
+                - generic [ref=e194]:
+                  - generic [ref=e195]: Объединение фасадов
+                  - generic [ref=e196]: $4 000
+              - generic [ref=e197]:
+                - generic [ref=e198]: ИТОГО
+                - generic [ref=e199]: $20 200
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: ◆
+            - text: DMX от $4 000 за объединение
+          - generic [ref=e205]:
+            - generic [ref=e206]: ◆
+            - text: сцены $200 / $600 / $1 600
+          - generic [ref=e207]:
+            - generic [ref=e208]: ◆
+            - text: сцены $600 / $1 000 / $3 000
+          - generic [ref=e209]:
+            - generic [ref=e210]: ◆
+            - text: без шаблонов
+          - generic [ref=e211]:
+            - generic [ref=e212]: ◆
+            - text: ночные тесты
+          - generic [ref=e213]:
+            - generic [ref=e214]: ◆
+            - text: 112 объектов
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - generic [ref=e217]: ◆
+            - text: DMX от $4 000 за объединение
+          - generic [ref=e218]:
+            - generic [ref=e219]: ◆
+            - text: сцены $200 / $600 / $1 600
+          - generic [ref=e220]:
+            - generic [ref=e221]: ◆
+            - text: сцены $600 / $1 000 / $3 000
+          - generic [ref=e222]:
+            - generic [ref=e223]: ◆
+            - text: без шаблонов
+          - generic [ref=e224]:
+            - generic [ref=e225]: ◆
+            - text: ночные тесты
+          - generic [ref=e226]:
+            - generic [ref=e227]: ◆
+            - text: 112 объектов
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - generic [ref=e230]: ◆
+            - text: DMX от $4 000 за объединение
+          - generic [ref=e231]:
+            - generic [ref=e232]: ◆
+            - text: сцены $200 / $600 / $1 600
+          - generic [ref=e233]:
+            - generic [ref=e234]: ◆
+            - text: сцены $600 / $1 000 / $3 000
+          - generic [ref=e235]:
+            - generic [ref=e236]: ◆
+            - text: без шаблонов
+          - generic [ref=e237]:
+            - generic [ref=e238]: ◆
+            - text: ночные тесты
+          - generic [ref=e239]:
+            - generic [ref=e240]: ◆
+            - text: 112 объектов
+    - contentinfo [ref=e241]:
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - heading "Студия" [level=5] [ref=e244]
+          - paragraph [ref=e245]: Lumen Architecture — инженерная студия архитектурного света для премиальных объектов в Москве, Дубае и Алматы.
+        - generic [ref=e246]:
+          - heading "Навигация" [level=5] [ref=e247]
+          - link "Главная" [ref=e248] [cursor=pointer]:
+            - /url: /
+          - link "Услуги" [ref=e249] [cursor=pointer]:
+            - /url: /services
+          - link "Стоимость" [ref=e250] [cursor=pointer]:
+            - /url: /pricing
+        - generic [ref=e251]:
+          - heading "Контакты" [level=5] [ref=e252]
+          - link "hello@lumen-arch.studio" [ref=e253] [cursor=pointer]:
+            - /url: mailto:hello@lumen-arch.studio
+          - link "+7 495 000 00 00" [ref=e254] [cursor=pointer]:
+            - /url: tel:+74950000000
+          - link "Telegram · @lumen_arch" [ref=e255] [cursor=pointer]:
+            - /url: "#"
+          - link "WhatsApp · +971 50 000 0000" [ref=e256] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e257]:
+          - heading "Адреса" [level=5] [ref=e258]
+          - link "Москва, Б. Якиманка, 32" [ref=e259] [cursor=pointer]:
+            - /url: "#"
+          - link "Dubai, DIFC, Gate Village 4" [ref=e260] [cursor=pointer]:
+            - /url: "#"
+          - link "Алматы, Аль-Фараби, 7" [ref=e261] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e262]:
+        - generic [ref=e263]: © 2014 — 2026 LUMEN ARCHITECTURE
+        - generic [ref=e264]: DMX · SPI · MEDIA · NEON · SERVICE
+        - generic [ref=e265]: Все права защищены
+  - alert [ref=e266]

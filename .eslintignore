@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+build
+dist
+coverage
+public
+_design_pkg
+next-env.d.ts

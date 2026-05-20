@@ -1,0 +1,90 @@
+/* Reset + body defaults */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--mono);
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "tnum", "ss02";
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  /* Prevent horizontal overflow on narrow screens */
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* Global focus-visible — keyboard users get a clear ring, mouse users do not.
+   Anything inside the inverted dark sections gets the inverted ring. */
+:where(a, button, input, textarea, select, summary, [tabindex]):focus {
+  outline: none;
+}
+
+:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.section.invert :where(a, button, input, textarea, select, summary, [tabindex]):focus-visible,
+.hero-right :where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline-color: var(--invert-text);
+}
+
+/* Visually-hidden helper (replaces inline sr-only styles) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Respect users who request reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

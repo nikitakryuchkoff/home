@@ -1,0 +1,93 @@
+/* Pricing Q/A blocks */
+.qa-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.qa-v2 {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 72px);
+  padding: clamp(48px, 5vw, 72px) 0;
+  border-top: 1px solid var(--ink);
+  align-items: start;
+}
+
+.qa-v2:last-child {
+  border-bottom: 1px solid var(--ink);
+}
+
+@media (max-width: 800px) {
+  .qa-v2 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
+
+.qa-v2-idx {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  padding-top: 12px;
+}
+
+.qa-v2-body {
+  max-width: 72ch;
+}
+
+.qa-v2-q {
+  font-family: var(--mono);
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0 0 18px;
+  text-transform: none;
+}
+
+.qa-v2-lede {
+  font-family: var(--mono);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0 0 20px;
+  letter-spacing: -0.005em;
+  text-transform: none;
+  padding-left: 16px;
+  border-left: 2px solid var(--ink);
+}
+
+.qa-v2-text p {
+  font-family: var(--mono);
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+  text-transform: none;
+  letter-spacing: -0.005em;
+  max-width: 64ch;
+}
+
+.qa-v2-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Estimate line rows (used in pricing examples cells) */
+.calc-line-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: rgba(244, 243, 238, 0.5);
+}
+
+.calc-line-row .v {
+  color: var(--invert-text);
+  font-size: 13px;
+}

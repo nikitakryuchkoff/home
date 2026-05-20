@@ -1,0 +1,218 @@
+- generic [ref=e2]:
+  - navigation "Primary" [ref=e3]:
+    - generic [ref=e4]:
+      - link "LUMEN ARCHITECTURE — Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]: LUMEN
+      - menubar [ref=e13]:
+        - menuitem "Главная" [ref=e14] [cursor=pointer]
+        - menuitem "Услуги" [ref=e15] [cursor=pointer]
+        - menuitem "Стоимость" [ref=e16] [cursor=pointer]
+      - generic [ref=e17]:
+        - group "Language" [ref=e18]:
+          - button "RU" [pressed] [ref=e19] [cursor=pointer]
+          - button "EN" [ref=e20] [cursor=pointer]
+        - link "Получить расчёт →" [ref=e21] [cursor=pointer]:
+          - /url: /pricing
+          - text: Получить расчёт
+          - generic [ref=e22]: →
+  - main [ref=e23]:
+    - region "Полный цикл инженерии архитектурного света — от шкафа до сценария." [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "[ СТРАНИЦА · УСЛУГИ ]"
+          - generic [ref=e29]: "[ 06 ПОЗИЦИЙ ]"
+        - heading "Полный цикл инженерии архитектурного света — от шкафа до сценария." [level=1] [ref=e30]
+        - paragraph [ref=e31]: Шесть направлений, которые мы ведём силами одной команды. Это означает единую инженерную ответственность от первой схемы до годового сервисного контракта.
+    - generic [ref=e32]:
+      - article "DMX / SPI системы управления" [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: ·S.01
+          - heading "DMX / SPI системы управления" [level=2] [ref=e36]
+          - paragraph [ref=e37]: Проектирование топологии, шкафы управления, синхронизация плоскостей, единая логика сценариев.
+          - link "Расчёт стоимости →" [ref=e39] [cursor=pointer]:
+            - /url: /pricing
+            - text: Расчёт стоимости
+            - generic [ref=e40]: →
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Что это" [level=4] [ref=e44]
+            - paragraph [ref=e45]: Проектирование топологии DMX-сети, сборка управляющих шкафов, выбор контроллеров, разводка вселенных и протоколов.
+          - generic [ref=e46]:
+            - heading "Для каких объектов" [level=4] [ref=e47]
+            - paragraph [ref=e48]: Отели, бизнес-кварталы, landmark-фасады, ритейл-флагманы.
+          - generic [ref=e49]:
+            - heading "Что входит" [level=4] [ref=e50]
+            - list [ref=e51]:
+              - listitem [ref=e52]: → Аудит фасада и геометрии
+              - listitem [ref=e53]: → Топология DMX и резервирование
+              - listitem [ref=e54]: → Шкафы управления и пусконаладка
+              - listitem [ref=e55]: → Удалённое управление и SLA
+          - generic [ref=e56]:
+            - heading "Как считается стоимость" [level=4] [ref=e57]
+            - paragraph [ref=e58]: Считается под объект. Объединение нескольких фасадов — от 4 000 USD.
+      - article "Пиксельный фасад / медиафасад" [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]: ·S.02
+          - heading "Пиксельный фасад / медиафасад" [level=2] [ref=e62]
+          - paragraph [ref=e63]: Расчёт сетки, монтаж, контент-сценарии, калибровка по всей плоскости здания.
+          - link "Расчёт стоимости →" [ref=e65] [cursor=pointer]:
+            - /url: /pricing
+            - text: Расчёт стоимости
+            - generic [ref=e66]: →
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "Что это" [level=4] [ref=e70]
+            - paragraph [ref=e71]: Расчёт сетки, монтаж пиксельной матрицы, написание контент-сценариев, калибровка по всей плоскости здания.
+          - generic [ref=e72]:
+            - heading "Для каких объектов" [level=4] [ref=e73]
+            - paragraph [ref=e74]: Башни, ламельные обшивки, торговые галереи, ритейл-флагманы.
+          - generic [ref=e75]:
+            - heading "Что входит" [level=4] [ref=e76]
+            - list [ref=e77]:
+              - listitem [ref=e78]: → Раскладка пикселей и шага
+              - listitem [ref=e79]: → Монтаж и адресация
+              - listitem [ref=e80]: → Контент-сценарии под объект
+              - listitem [ref=e81]: → Калибровка плоскости
+          - generic [ref=e82]:
+            - heading "Как считается стоимость" [level=4] [ref=e83]
+            - paragraph [ref=e84]: "Сцены: простая 200 / средняя 600 / сложная 1 600 USD."
+      - article "Фасадная анимация" [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: ·S.03
+          - heading "Фасадная анимация" [level=2] [ref=e88]
+          - paragraph [ref=e89]: Авторские сцены — от спокойного дыхания до сложной нарративной анимации фасада.
+          - link "Расчёт стоимости →" [ref=e91] [cursor=pointer]:
+            - /url: /pricing
+            - text: Расчёт стоимости
+            - generic [ref=e92]: →
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - heading "Что это" [level=4] [ref=e96]
+            - paragraph [ref=e97]: Авторские сцены для оконной и фасадной светодинамики — от спокойного дыхания до сложной нарративной анимации.
+          - generic [ref=e98]:
+            - heading "Для каких объектов" [level=4] [ref=e99]
+            - paragraph [ref=e100]: Отели, рестораны, культурные пространства, knock-out фасады.
+          - generic [ref=e101]:
+            - heading "Что входит" [level=4] [ref=e102]
+            - list [ref=e103]:
+              - listitem [ref=e104]: → Сценарий и сторибординг
+              - listitem [ref=e105]: → Зонирование и фазы
+              - listitem [ref=e106]: → Ночное тестирование на объекте
+              - listitem [ref=e107]: → Передача исходников и доков
+          - generic [ref=e108]:
+            - heading "Как считается стоимость" [level=4] [ref=e109]
+            - paragraph [ref=e110]: "Сцены: простая 600 / средняя 1 000 / сложная 3 000 USD."
+      - article "Гибкий неон" [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: ·S.04
+          - heading "Гибкий неон" [level=2] [ref=e114]
+          - paragraph [ref=e115]: Контурный свет, силуэты, акцентная подсветка карнизов, интеграция в общую DMX-логику.
+          - link "Расчёт стоимости →" [ref=e117] [cursor=pointer]:
+            - /url: /pricing
+            - text: Расчёт стоимости
+            - generic [ref=e118]: →
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - heading "Что это" [level=4] [ref=e122]
+            - paragraph [ref=e123]: Контурный гибкий неон, силуэты, акцентная подсветка, интеграция в общую DMX-логику здания.
+          - generic [ref=e124]:
+            - heading "Для каких объектов" [level=4] [ref=e125]
+            - paragraph [ref=e126]: Рестораны, бутики, культурные кластеры, входные группы отелей.
+          - generic [ref=e127]:
+            - heading "Что входит" [level=4] [ref=e128]
+            - list [ref=e129]:
+              - listitem [ref=e130]: → Раскладка контура
+              - listitem [ref=e131]: → Монтаж и сборка контуров
+              - listitem [ref=e132]: → Интеграция в DMX-сценарий
+              - listitem [ref=e133]: → Гарантия и сервисный план
+          - generic [ref=e134]:
+            - heading "Как считается стоимость" [level=4] [ref=e135]
+            - paragraph [ref=e136]: Цена — за метр контура, по типу неона. Считается после раскладки.
+      - article "Сервис и техобслуживание" [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: ·S.05
+          - heading "Сервис и техобслуживание" [level=2] [ref=e140]
+          - paragraph [ref=e141]: Регламентные выезды, диагностика, замена модулей, удалённый мониторинг сценариев.
+          - link "Расчёт стоимости →" [ref=e143] [cursor=pointer]:
+            - /url: /pricing
+            - text: Расчёт стоимости
+            - generic [ref=e144]: →
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - heading "Что это" [level=4] [ref=e148]
+            - paragraph [ref=e149]: Регламентные выезды, диагностика, удалённый мониторинг сценариев, замена модулей по SLA.
+          - generic [ref=e150]:
+            - heading "Для каких объектов" [level=4] [ref=e151]
+            - paragraph [ref=e152]: Все объекты, где свет — часть имени здания.
+          - generic [ref=e153]:
+            - heading "Что входит" [level=4] [ref=e154]
+            - list [ref=e155]:
+              - listitem [ref=e156]: → Календарь регламентного обслуживания
+              - listitem [ref=e157]: → Удалённая диагностика
+              - listitem [ref=e158]: → Склад запасных модулей
+              - listitem [ref=e159]: → SLA от 4 часов
+          - generic [ref=e160]:
+            - heading "Как считается стоимость" [level=4] [ref=e161]
+            - paragraph [ref=e162]: Годовой контракт. Считается по количеству выездов и SLA.
+      - article "Объединение фасадов" [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: ·S.06
+          - heading "Объединение фасадов" [level=2] [ref=e166]
+          - paragraph [ref=e167]: Синхронизация нескольких плоскостей в единый сценарий, переходы, тестирование драматургии.
+          - link "Расчёт стоимости →" [ref=e169] [cursor=pointer]:
+            - /url: /pricing
+            - text: Расчёт стоимости
+            - generic [ref=e170]: →
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - heading "Что это" [level=4] [ref=e174]
+            - paragraph [ref=e175]: "Синхронизация нескольких фасадов в единую драматургию: переходы, фазы, тестирование на разных плоскостях."
+          - generic [ref=e176]:
+            - heading "Для каких объектов" [level=4] [ref=e177]
+            - paragraph [ref=e178]: Отели с несколькими фасадами, landmark-объекты, кварталы.
+          - generic [ref=e179]:
+            - heading "Что входит" [level=4] [ref=e180]
+            - list [ref=e181]:
+              - listitem [ref=e182]: → Согласование общей логики
+              - listitem [ref=e183]: → Настройка переходов
+              - listitem [ref=e184]: → Тестирование с разных ракурсов
+              - listitem [ref=e185]: → Драматургия здания
+          - generic [ref=e186]:
+            - heading "Как считается стоимость" [level=4] [ref=e187]
+            - paragraph [ref=e188]: Считается отдельно от 4 000 USD.
+  - contentinfo [ref=e189]:
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - heading "Студия" [level=5] [ref=e192]
+        - paragraph [ref=e193]: Lumen Architecture — инженерная студия архитектурного света для премиальных объектов в Москве, Дубае и Алматы.
+      - generic [ref=e194]:
+        - heading "Навигация" [level=5] [ref=e195]
+        - link "Главная" [ref=e196] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e197] [cursor=pointer]:
+          - /url: /services
+        - link "Стоимость" [ref=e198] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e199]:
+        - heading "Контакты" [level=5] [ref=e200]
+        - link "hello@lumen-arch.studio" [ref=e201] [cursor=pointer]:
+          - /url: mailto:hello@lumen-arch.studio
+        - link "+7 495 000 00 00" [ref=e202] [cursor=pointer]:
+          - /url: tel:+74950000000
+        - link "Telegram · @lumen_arch" [ref=e203] [cursor=pointer]:
+          - /url: "#"
+        - link "WhatsApp · +971 50 000 0000" [ref=e204] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e205]:
+        - heading "Адреса" [level=5] [ref=e206]
+        - link "Москва, Б. Якиманка, 32" [ref=e207] [cursor=pointer]:
+          - /url: "#"
+        - link "Dubai, DIFC, Gate Village 4" [ref=e208] [cursor=pointer]:
+          - /url: "#"
+        - link "Алматы, Аль-Фараби, 7" [ref=e209] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e210]:
+      - generic [ref=e211]: © 2014 — 2026 LUMEN ARCHITECTURE
+      - generic [ref=e212]: DMX · SPI · MEDIA · NEON · SERVICE
+      - generic [ref=e213]: Все права защищены

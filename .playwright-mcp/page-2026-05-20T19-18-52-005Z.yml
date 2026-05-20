@@ -1,0 +1,324 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary" [ref=e3]:
+      - generic [ref=e4]:
+        - link "LUMEN ARCHITECTURE — Home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e12]: LUMEN
+          - generic [ref=e13]: / ARCHITECTURE
+        - menubar [ref=e14]:
+          - menuitem "Home" [ref=e389] [cursor=pointer]
+          - menuitem "Services" [ref=e390] [cursor=pointer]
+          - menuitem "Pricing" [ref=e391] [cursor=pointer]
+        - generic [ref=e18]:
+          - group "Language" [ref=e19]:
+            - button "RU" [ref=e20] [cursor=pointer]
+            - button "EN" [active] [pressed] [ref=e21] [cursor=pointer]
+          - link "Request quote →" [ref=e392] [cursor=pointer]:
+            - /url: /pricing
+            - text: Request quote
+            - generic [ref=e23]: →
+    - main [ref=e24]:
+      - paragraph [ref=e25]: "LUMEN ARCHITECTURE — инженерная студия архитектурного света. С 2014 года: DMX/SPI системы управления, пиксельные и медиафасады, фасадная анимация, гибкий неон, сервис и техобслуживание. Москва · Дубай · Алматы."
+      - region "Hero" [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Architectural lighting engineering studio
+            - heading "Light as part of architecture." [level=1] [ref=e393]
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: We design and build lighting control for hotels, business centres and landmark facades. From a single plane to the unified dramaturgy of an entire building.
+            - generic [ref=e34]:
+              - link "Get a quote →" [ref=e394] [cursor=pointer]:
+                - /url: /pricing
+                - text: Get a quote
+                - generic [ref=e36]: →
+              - link "Services →" [ref=e395] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+                - generic [ref=e38]: →
+      - region "[ 01 / STUDIO ]" [ref=e396]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e46]: §01
+              - generic [ref=e48]: "[ 01 / STUDIO ]"
+            - heading "Engineering written by hand for every facade." [level=2] [ref=e397]
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: Lumen Architecture is a studio of architectural lighting and control systems. We work where light is part of a building’s identity, not a decoration. Since 2014 we have delivered 112 projects across three countries.
+            - paragraph [ref=e53]: Each scene is written by hand. We do not use templates, do not simplify geometry, do not replace individual dramaturgy with off-the-shelf effects.
+      - region "[ 03 / SERVICES ]" [ref=e398]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e59]: §02
+              - generic [ref=e61]: "[ 03 / SERVICES ]"
+            - heading "Full cycle — from engineering to service support." [level=2] [ref=e399]
+          - generic [ref=e64]:
+            - link "DMX / SPI control systems" [ref=e400] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=e66]:
+                - generic [ref=e67]: S.01
+                - generic [ref=e68]: →
+              - img [ref=e70]
+              - heading "DMX / SPI control systems" [level=3] [ref=e401]
+              - paragraph [ref=e82]: Topology design, control cabinets, plane synchronisation, unified scene logic.
+              - generic [ref=e83]:
+                - generic [ref=e84]: Turn-key
+                - generic [ref=e85]: Learn more →
+            - link "Pixel facade / media facade" [ref=e402] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=e87]:
+                - generic [ref=e88]: S.02
+                - generic [ref=e89]: →
+              - img [ref=e91]
+              - heading "Pixel facade / media facade" [level=3] [ref=e403]
+              - paragraph [ref=e103]: Grid calculation, installation, content scenes, full-plane calibration.
+              - generic [ref=e104]:
+                - generic [ref=e105]: From 1×1 to 64×64 m
+                - generic [ref=e106]: Learn more →
+            - link "Facade animation" [ref=e404] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=e108]:
+                - generic [ref=e109]: S.03
+                - generic [ref=e110]: →
+              - img [ref=e112]
+              - heading "Facade animation" [level=3] [ref=e405]
+              - paragraph [ref=e118]: Authored scenes — from quiet breathing to complex narrative facade animation.
+              - generic [ref=e119]:
+                - generic [ref=e120]: Basic · Medium · Complex
+                - generic [ref=e121]: Learn more →
+            - link "Flexible neon" [ref=e406] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=e123]:
+                - generic [ref=e124]: S.04
+                - generic [ref=e125]: →
+              - img [ref=e127]
+              - heading "Flexible neon" [level=3] [ref=e407]
+              - paragraph [ref=e131]: Contour light, silhouettes, cornice accents, integrated into shared DMX logic.
+              - generic [ref=e132]:
+                - generic [ref=e133]: RGB / RGBW / monochrome
+                - generic [ref=e134]: Learn more →
+            - link "Service & maintenance" [ref=e408] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=e136]:
+                - generic [ref=e137]: S.05
+                - generic [ref=e138]: →
+              - img [ref=e140]
+              - heading "Service & maintenance" [level=3] [ref=e409]
+              - paragraph [ref=e145]: Scheduled visits, diagnostics, module replacement, remote scene monitoring.
+              - generic [ref=e146]:
+                - generic [ref=e147]: SLA from 4 hours
+                - generic [ref=e148]: Learn more →
+            - link "Facade orchestration" [ref=e410] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=e150]:
+                - generic [ref=e151]: S.06
+                - generic [ref=e152]: →
+              - img [ref=e154]
+              - heading "Facade orchestration" [level=3] [ref=e411]
+              - paragraph [ref=e160]: Synchronising several planes into one scenario, transitions, dramaturgy testing.
+              - generic [ref=e161]:
+                - generic [ref=e162]: Priced separately
+                - generic [ref=e163]: Learn more →
+      - region "[ 04 / APPROACH ]" [ref=e412]:
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - generic [ref=e169]: §03
+              - generic [ref=e171]: "[ 04 / APPROACH ]"
+            - heading "We price by the scenario, not by the metre." [level=2] [ref=e413]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: "01"
+              - img [ref=e178]
+              - heading "Scenario, not a price list" [level=3] [ref=e414]
+              - paragraph [ref=e183]: Each object is an individual engineering task. We do not reuse off-the-shelf effect libraries.
+            - listitem [ref=e184]:
+              - generic [ref=e185]: "02"
+              - img [ref=e187]
+              - heading "Architectural logic" [level=3] [ref=e415]
+              - paragraph [ref=e193]: "Scene rhythm follows the building geometry: facade relief, lamellae, cornices, glazing."
+            - listitem [ref=e194]:
+              - generic [ref=e195]: "03"
+              - img [ref=e197]
+              - heading "Building dramaturgy" [level=3] [ref=e416]
+              - paragraph [ref=e203]: Multiple facades read as one whole. Transitions and phases stay in sync.
+            - listitem [ref=e204]:
+              - generic [ref=e205]: "04"
+              - img [ref=e207]
+              - heading "Long-term care" [level=3] [ref=e417]
+              - paragraph [ref=e213]: Service, scenario updates, remote monitoring and SLA-based module replacement.
+      - region "[ 07 / QUESTIONS ]" [ref=e418]:
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - generic [ref=e219]: §04
+              - generic [ref=e221]: "[ 07 / QUESTIONS ]"
+            - heading "Frequently asked." [level=2] [ref=e419]
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - heading "[ 01 ] How much does a DMX control system cost?" [level=3] [ref=e420]:
+                - button "[ 01 ] How much does a DMX control system cost?" [ref=e421] [cursor=pointer]:
+                  - generic [ref=e228]: "[ 01 ]"
+                  - generic [ref=e229]: How much does a DMX control system cost?
+                  - generic [ref=e230]: +
+              - paragraph [ref=e233]: A DMX system price depends on cabinet topology, controllers, number of universes, plane synchronisation and scene complexity. For premium projects pricing is individual and starts from 4 000 USD for unified facade orchestration. Turn-key scenes are quoted separately — basic from 600 USD, complex up to 3 000 USD per scene.
+            - listitem [ref=e235]:
+              - heading "[ 02 ] How much does a facade animation cost?" [level=3] [ref=e422]:
+                - button "[ 02 ] How much does a facade animation cost?" [expanded] [ref=e423] [cursor=pointer]:
+                  - generic [ref=e238]: "[ 02 ]"
+                  - generic [ref=e239]: How much does a facade animation cost?
+                  - generic [ref=e240]: −
+              - region [ref=e388]:
+                - paragraph [ref=e242]: "Facade animation is quoted by scene. Basic — 600 USD, medium — 1 000 USD, complex — 3 000 USD. On pixel and lamellae facades scenes are lower: 200 / 600 / 1 600 USD. Multi-facade orchestration is a separate item, from 4 000 USD."
+            - listitem [ref=e244]:
+              - heading "[ 03 ] How much does one media-facade pixel cost?" [level=3] [ref=e424]:
+                - button "[ 03 ] How much does one media-facade pixel cost?" [ref=e425] [cursor=pointer]:
+                  - generic [ref=e247]: "[ 03 ]"
+                  - generic [ref=e248]: How much does one media-facade pixel cost?
+                  - generic [ref=e249]: +
+              - paragraph [ref=e251]: The price of one pixel depends on pitch, mounting type, environmental rating and the controller. It varies from a few USD per pixel in dense outdoor matrices to tens of USD in large independently addressed nodes. We give the exact figure after reviewing facade geometry.
+            - listitem [ref=e253]:
+              - heading "[ 04 ] How much does one pixel-facade point cost?" [level=3] [ref=e426]:
+                - button "[ 04 ] How much does one pixel-facade point cost?" [ref=e427] [cursor=pointer]:
+                  - generic [ref=e256]: "[ 04 ]"
+                  - generic [ref=e257]: How much does one pixel-facade point cost?
+                  - generic [ref=e258]: +
+              - paragraph [ref=e260]: A lamellae or pixel-facade point is usually cheaper than a classic media pixel due to larger pitch and simpler addressing. The real price is calculated for the task and supplied with a layout in the proposal.
+            - listitem [ref=e262]:
+              - heading "[ 05 ] How much does one metre of flexible neon cost?" [level=3] [ref=e428]:
+                - button "[ 05 ] How much does one metre of flexible neon cost?" [ref=e429] [cursor=pointer]:
+                  - generic [ref=e265]: "[ 05 ]"
+                  - generic [ref=e266]: How much does one metre of flexible neon cost?
+                  - generic [ref=e267]: +
+              - paragraph [ref=e269]: "The metre price of neon depends on the type: mono, RGB, RGBW, IP rating, thickness and mounts. Basic monochrome neon is significantly cheaper than full-colour pixel-controlled neon. The final price follows the contour layout."
+            - listitem [ref=e271]:
+              - heading "[ 06 ] What is the difference between basic, medium and complex animation?" [level=3] [ref=e430]:
+                - button "[ 06 ] What is the difference between basic, medium and complex animation?" [ref=e431] [cursor=pointer]:
+                  - generic [ref=e274]: "[ 06 ]"
+                  - generic [ref=e275]: What is the difference between basic, medium and complex animation?
+                  - generic [ref=e276]: +
+              - paragraph [ref=e278]: Basic — a base wave, quiet architectural accent, minimal manual work. Medium — zoning, partial dimming, several phases, geometry-aware. Complex — individual logic, large-volume hand-tuned work, lengthy setup, up to two weeks per scene.
+            - listitem [ref=e280]:
+              - heading "[ 07 ] Why does complex animation cost more?" [level=3] [ref=e432]:
+                - button "[ 07 ] Why does complex animation cost more?" [ref=e433] [cursor=pointer]:
+                  - generic [ref=e283]: "[ 07 ]"
+                  - generic [ref=e284]: Why does complex animation cost more?
+                  - generic [ref=e285]: +
+              - paragraph [ref=e287]: "A complex scene is hand-authored for a specific facade: geometry rhythm, custom groups, multi-layered transitions, night tests and precise calibration. One such scene takes up to two weeks of an engineer and a lighting designer."
+            - listitem [ref=e289]:
+              - heading "[ 08 ] What is included in the price?" [level=3] [ref=e434]:
+                - button "[ 08 ] What is included in the price?" [ref=e435] [cursor=pointer]:
+                  - generic [ref=e292]: "[ 08 ]"
+                  - generic [ref=e293]: What is included in the price?
+                  - generic [ref=e294]: +
+              - paragraph [ref=e296]: The scene price includes scenario authoring, setup on the client’s or our lab equipment, phase synchronisation, on-site night testing, documentation and source handover. Hardware and installation are quoted separately.
+            - listitem [ref=e298]:
+              - heading "[ 09 ] Why is multi-facade orchestration priced separately?" [level=3] [ref=e436]:
+                - button "[ 09 ] Why is multi-facade orchestration priced separately?" [ref=e437] [cursor=pointer]:
+                  - generic [ref=e301]: "[ 09 ]"
+                  - generic [ref=e302]: Why is multi-facade orchestration priced separately?
+                  - generic [ref=e303]: +
+              - paragraph [ref=e305]: "When a building has 2+ facades, a unified dramaturgy appears: transitions between planes, common logic alignment, scene testing across angles and remote installation supervision. This is separate engineering work, not a sum of scenes."
+            - listitem [ref=e307]:
+              - heading "[ 10 ] How much does architectural lighting maintenance cost?" [level=3] [ref=e438]:
+                - button "[ 10 ] How much does architectural lighting maintenance cost?" [ref=e439] [cursor=pointer]:
+                  - generic [ref=e310]: "[ 10 ]"
+                  - generic [ref=e311]: How much does architectural lighting maintenance cost?
+                  - generic [ref=e312]: +
+              - paragraph [ref=e314]: "Maintenance is a yearly contract: number of scheduled visits, SLA response time, remote monitoring and a spare-module pool. For hotels and landmarks we offer an extended SLA with response from 4 hours."
+      - region "[ 08 / REQUEST ]" [ref=e440]:
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e321]: §05
+              - generic [ref=e323]: "[ 08 / REQUEST ]"
+            - heading "Describe the facade — we return an estimate in 1–2 business days." [level=2] [ref=e441]
+          - form "Request form" [ref=e442]:
+            - generic [ref=e327]:
+              - generic [ref=e328]: Name
+              - textbox "Name" [ref=e443]:
+                - /placeholder: Ivan Orlov
+                - text: QA Тестер
+            - generic [ref=e330]:
+              - generic [ref=e331]: Company
+              - textbox "Company" [ref=e444]:
+                - /placeholder: Devstroy Group
+                - text: Test Co
+            - generic [ref=e333]:
+              - generic [ref=e334]: E-mail
+              - textbox "E-mail" [ref=e335]:
+                - /placeholder: name@company.com
+                - text: qa@example.com
+            - generic [ref=e336]:
+              - generic [ref=e337]: Phone / Telegram
+              - textbox "Phone / Telegram" [ref=e445]:
+                - /placeholder: +7 / @username
+                - text: +7 999 111 22 33
+            - generic [ref=e339]:
+              - generic [ref=e340]: Object type
+              - combobox "Object type" [ref=e446]:
+                - option "Hotel / residence"
+                - option "Business centre"
+                - option "Retail gallery"
+                - option "Landmark" [selected]
+                - option "Restaurant complex"
+                - option "Other"
+            - generic [ref=e342]:
+              - generic [ref=e343]: Facade count
+              - textbox "Facade count" [ref=e447]:
+                - /placeholder: 1 — 4+
+                - text: "3"
+            - generic [ref=e345]:
+              - generic [ref=e346]: Describe the task
+              - textbox "Describe the task" [ref=e448]:
+                - /placeholder: Geometry, requirements, deadline…
+                - text: Тестовая заявка от QA
+            - generic [ref=e348]:
+              - generic [ref=e349]: "[ WE REPLY WITHIN 1–2 BUSINESS DAYS ]"
+              - button "Send request →" [ref=e449] [cursor=pointer]:
+                - text: Send request
+                - generic [ref=e351]: →
+    - contentinfo [ref=e352]:
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - heading "Studio" [level=5] [ref=e450]
+          - paragraph [ref=e356]: Lumen Architecture — engineering studio of architectural light for premium objects in Moscow, Dubai and Almaty.
+        - generic [ref=e357]:
+          - heading "Navigation" [level=5] [ref=e451]
+          - link "Home" [ref=e452] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e453] [cursor=pointer]:
+            - /url: /services
+          - link "Pricing" [ref=e454] [cursor=pointer]:
+            - /url: /pricing
+        - generic [ref=e362]:
+          - heading "Contacts" [level=5] [ref=e455]
+          - link "hello@lumen-arch.studio" [ref=e364] [cursor=pointer]:
+            - /url: mailto:hello@lumen-arch.studio
+          - link "+7 495 000 00 00" [ref=e365] [cursor=pointer]:
+            - /url: tel:+74950000000
+          - link "Telegram · @lumen_arch" [ref=e366] [cursor=pointer]:
+            - /url: "#"
+          - link "WhatsApp · +971 50 000 0000" [ref=e367] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e368]:
+          - heading "Offices" [level=5] [ref=e456]
+          - link "Москва, Б. Якиманка, 32" [ref=e370] [cursor=pointer]:
+            - /url: "#"
+          - link "Dubai, DIFC, Gate Village 4" [ref=e371] [cursor=pointer]:
+            - /url: "#"
+          - link "Алматы, Аль-Фараби, 7" [ref=e372] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e373]:
+        - generic [ref=e374]: © 2014 — 2026 LUMEN ARCHITECTURE
+        - generic [ref=e375]: DMX · SPI · MEDIA · NEON · SERVICE
+        - generic [ref=e376]: All rights reserved
+  - status [ref=e377]:
+    - generic [ref=e378]:
+      - img [ref=e380]
+      - generic [ref=e382]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e383] [cursor=pointer]:
+          - img [ref=e384]
+  - alert [ref=e387]
