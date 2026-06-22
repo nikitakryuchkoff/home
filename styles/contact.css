@@ -58,3 +58,15 @@
     border-top: 1px solid var(--paper-line);
   }
 }
+
+@media (max-width: 600px) {
+  .contact-link {
+    min-height: 116px;
+    padding: 20px;
+    gap: 24px;
+  }
+
+  .contact-link strong {
+    font-size: 18px;
+  }
+}

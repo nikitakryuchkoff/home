@@ -57,6 +57,22 @@
   }
 }
 
+@media (max-width: 600px) {
+  .svc-side {
+    padding: 28px 0;
+    gap: 18px;
+  }
+
+  .svc-body {
+    padding: 28px 0;
+    gap: 24px;
+  }
+
+  .svc-side-cta .btn {
+    width: 100%;
+  }
+}
+
 .svc-num {
   font-family: var(--mono);
   font-size: 14px;
@@ -177,4 +193,31 @@
 
 .svc-side-cta {
   margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+  .svc-section p,
+  .svc-section ul {
+    font-size: 13.5px;
+    line-height: 1.65;
+    letter-spacing: 0;
+  }
+
+  .services-hero {
+    padding-top: 44px;
+    padding-bottom: 40px;
+  }
+
+  .services-hero-inner {
+    gap: 22px;
+  }
+
+  .services-hero-row {
+    gap: 10px;
+  }
+
+  .services-hero-h,
+  .services-hero-lede {
+    max-width: none;
+  }
 }

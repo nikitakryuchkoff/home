@@ -113,6 +113,35 @@
   }
 }
 
+@media (max-width: 600px) {
+  .section {
+    padding: 44px 0;
+  }
+
+  .section-head {
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .section-num .big {
+    font-size: 36px;
+    letter-spacing: 0;
+  }
+
+  .page-hero-inner {
+    gap: 22px;
+  }
+
+  .page-hero-h,
+  .page-hero-lede {
+    max-width: none;
+  }
+
+  .intro-copy {
+    gap: 16px;
+  }
+}
+
 /* Generic page hero — bulletproof flex stack so the H1 never overlaps the lede */
 .page-hero-inner {
   display: flex;

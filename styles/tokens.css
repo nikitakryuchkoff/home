@@ -31,3 +31,9 @@
   --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--ink);
   --focus-ring-invert: 0 0 0 2px var(--invert-bg), 0 0 0 4px var(--invert-text);
 }
+
+@media (max-width: 600px) {
+  :root {
+    --pad: 16px;
+  }
+}

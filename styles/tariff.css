@@ -121,6 +121,37 @@
   }
 }
 
+@media (max-width: 600px) {
+  .tariff-row {
+    padding: 12px 0;
+  }
+
+  .tariff-row > div {
+    padding: 9px 12px;
+    gap: 10px;
+  }
+
+  .tariff-row .name {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+
+  .tariff-row .price,
+  .tariff-row .lead {
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+
+  .tariff-row .lead {
+    align-items: flex-start;
+    line-height: 1.45;
+  }
+
+  .example-total-v {
+    font-size: 20px;
+  }
+}
+
 /* Pricing hero — large standalone page intro */
 .pricing-hero {
   padding-top: clamp(56px, 7vw, 120px);
@@ -153,4 +184,11 @@
   font-size: 22px;
   color: var(--accent-2);
   letter-spacing: -0.02em;
+}
+
+@media (max-width: 600px) {
+  .pricing-hero {
+    padding-top: 44px;
+    padding-bottom: 36px;
+  }
 }

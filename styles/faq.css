@@ -103,13 +103,28 @@
 @media (max-width: 600px) {
   .faq-q,
   .faq-a {
-    grid-template-columns: 56px 1fr 32px;
-    gap: 16px;
+    grid-template-columns: 40px minmax(0, 1fr) 28px;
+    gap: 10px;
   }
   .faq-q .idx {
-    padding-left: 12px;
+    padding-left: 8px;
   }
   .faq-q {
-    padding: 20px 0;
+    padding: 18px 0;
+  }
+  .faq-q .toggle {
+    width: 28px;
+    height: 28px;
+    margin-right: 0;
+  }
+  .faq-a {
+    padding: 0 8px;
+  }
+  .faq-item.open .faq-a {
+    padding: 0 8px 24px;
+  }
+  .faq-a-text {
+    font-size: 14px;
+    line-height: 1.65;
   }
 }

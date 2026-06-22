@@ -105,3 +105,55 @@ h5 {
 .dim {
   color: var(--muted);
 }
+
+@media (max-width: 600px) {
+  .h-mega,
+  .h-display,
+  .t-h1,
+  .t-h2,
+  .t-h3 {
+    letter-spacing: 0;
+  }
+
+  .h-mega {
+    font-size: 38px;
+    line-height: 1;
+  }
+
+  .h-display {
+    font-size: 34px;
+    line-height: 1.08;
+  }
+
+  .t-h1 {
+    font-size: 27px;
+    line-height: 1.12;
+  }
+
+  .t-h2 {
+    font-size: 22px;
+    line-height: 1.18;
+  }
+
+  .t-h3 {
+    font-size: 19px;
+    line-height: 1.2;
+  }
+
+  .lede {
+    font-size: 15px;
+    line-height: 1.55;
+    letter-spacing: 0;
+  }
+
+  .body,
+  .body p {
+    font-size: 14px;
+    line-height: 1.65;
+    letter-spacing: 0;
+  }
+
+  .micro {
+    font-size: 10px;
+  }
+}

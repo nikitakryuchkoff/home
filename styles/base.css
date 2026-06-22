@@ -7,6 +7,7 @@ html {
   background: var(--bg);
   scroll-behavior: smooth;
   scroll-padding-top: 96px;
+  overflow-x: hidden;
 }
 
 html,
@@ -26,6 +27,12 @@ body {
   letter-spacing: -0.01em;
   /* Prevent horizontal overflow on narrow screens */
   overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  html {
+    scroll-padding-top: 124px;
+  }
 }
 
 a {

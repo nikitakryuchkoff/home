@@ -202,13 +202,15 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     height: auto;
-    padding-top: 12px;
+    padding-top: 10px;
     padding-bottom: 8px;
     row-gap: 8px;
   }
   .nav-brand {
     grid-column: 1;
     grid-row: 1;
+    align-items: center;
+    font-size: 16px;
   }
   .nav-actions {
     grid-column: 1;
@@ -219,10 +221,11 @@
     grid-column: 1 / -1;
     grid-row: 2;
     border-top: 1px solid var(--paper-line);
-    padding-top: 4px;
+    padding-top: 6px;
     margin: 0 calc(-1 * var(--pad));
     padding-left: var(--pad);
     padding-right: var(--pad);
+    justify-content: flex-start;
   }
   .nav-brand .sub {
     display: none;
@@ -231,5 +234,15 @@
     min-width: auto;
     padding: 8px 12px;
     font-size: 11px;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-actions .btn {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 8px 10px;
   }
 }
