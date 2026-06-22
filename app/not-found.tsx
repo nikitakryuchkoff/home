@@ -12,7 +12,7 @@ export default function NotFound() {
             </h1>
             <p className="lede page-hero-lede">
               Возможно, ссылка устарела или адрес введён с ошибкой. Вернитесь на главную или
-              посмотрите услуги и кейсы.
+              посмотрите услуги и стоимость.
             </p>
             <div style={{ display: "flex", gap: 12, marginTop: 24, flexWrap: "wrap" }}>
               <Link href="/" className="btn btn-primary">
@@ -21,8 +21,8 @@ export default function NotFound() {
               <Link href="/services" className="btn">
                 Услуги <span className="arrow">→</span>
               </Link>
-              <Link href="/cases" className="btn">
-                Кейсы <span className="arrow">→</span>
+              <Link href="/pricing" className="btn">
+                Стоимость <span className="arrow">→</span>
               </Link>
             </div>
           </div>

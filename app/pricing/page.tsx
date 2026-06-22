@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { PricingPageClient } from "@/components/pages/PricingPageClient";
 import { CONTENT, SITE } from "@/lib/content";
 
-const TITLE = "Стоимость DMX, фасадной анимации и медиафасадов";
+const TITLE = "Стоимость фасадного освещения и анимации";
 const DESC =
-  "Тарифная сетка по сценам, экспертные ответы и интерактивный калькулятор: DMX, фасадная анимация, пиксельный фасад, объединение фасадов.";
+  "Тарифная сетка по сценам, экспертные ответы и интерактивный калькулятор: фасадная анимация, пиксельный фасад, объединение фасадов.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -33,7 +33,7 @@ const BREADCRUMBS_LD = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "LUMEN", item: SITE.url },
+    { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
     { "@type": "ListItem", position: 2, name: "Стоимость", item: `${SITE.url}/pricing` },
   ],
 };

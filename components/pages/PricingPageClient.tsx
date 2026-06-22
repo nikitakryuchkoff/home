@@ -146,20 +146,20 @@ export function PricingPageClient() {
         items={
           lang === "ru"
             ? [
-                "DMX от $4 000 за объединение",
+                "управление от $4 000 за объединение",
                 "сцены $200 / $600 / $1 600",
                 "сцены $600 / $1 000 / $3 000",
                 "без шаблонов",
                 "ночные тесты",
-                "112 объектов",
+                "расчёт по геометрии",
               ]
             : [
-                "DMX from $4 000 orchestration",
+                "control from $4 000 orchestration",
                 "scenes $200 / $600 / $1 600",
                 "scenes $600 / $1 000 / $3 000",
                 "no templates",
                 "night tests",
-                "112 projects",
+                "geometry-based estimate",
               ]
         }
       />

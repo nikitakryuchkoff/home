@@ -133,10 +133,6 @@
   max-width: 60ch;
 }
 
-.cases-hero-h {
-  max-width: 16ch;
-}
-
 /* Intro block — kicker + h2 + body copy stack */
 .intro-copy {
   display: grid;

@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import {
   createContext,
   useCallback,
@@ -26,6 +27,7 @@ const LangCtx = createContext<Ctx>({
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>("ru");
+  const pathname = usePathname() ?? "/";
 
   useEffect(() => {
     const stored = typeof window !== "undefined" ? window.localStorage.getItem("lang") : null;
@@ -36,22 +38,23 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     if (typeof window === "undefined") return;
     window.localStorage.setItem("lang", lang);
     document.documentElement.lang = lang;
-    const map: Record<string, string> = {
-      "LUMEN ARCHITECTURE — DMX, фасадная анимация, медиафасады":
-        "LUMEN ARCHITECTURE — DMX, facade animation, media facades",
-      "Услуги · LUMEN": "Services · LUMEN",
-      "Стоимость DMX, фасадной анимации и медиафасадов · LUMEN":
-        "DMX, facade animation and media facade pricing · LUMEN",
-      "Кейсы и контакты · LUMEN": "Cases & contacts · LUMEN",
+    const titles: Record<string, Record<Lang, string>> = {
+      "/": {
+        ru: "DMX — стоимость фасадного освещения и анимации",
+        en: "DMX — facade lighting and animation pricing",
+      },
+      "/services": {
+        ru: "Услуги · DMX",
+        en: "Services · DMX",
+      },
+      "/pricing": {
+        ru: "Стоимость фасадного освещения и анимации · DMX",
+        en: "Facade lighting and animation pricing · DMX",
+      },
     };
-    if (lang === "en") {
-      const en = map[document.title];
-      if (en) document.title = en;
-    } else {
-      const ru = Object.entries(map).find(([, v]) => v === document.title)?.[0];
-      if (ru) document.title = ru;
-    }
-  }, [lang]);
+    const title = titles[pathname]?.[lang];
+    if (title) document.title = title;
+  }, [lang, pathname]);
 
   const setLang = useCallback((l: Lang) => setLangState(l), []);
   const t = useCallback((o: LText | string | undefined | null) => txFn(o, lang), [lang]);

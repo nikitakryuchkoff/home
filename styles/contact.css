@@ -1,0 +1,60 @@
+/* Direct contacts */
+.contact-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--ink);
+  background: var(--bg);
+}
+
+.contact-link {
+  min-height: 148px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  color: var(--ink);
+  transition:
+    background var(--motion-fast),
+    color var(--motion-fast);
+}
+
+.contact-link + .contact-link {
+  border-left: 1px solid var(--paper-line);
+}
+
+.contact-link:hover {
+  background: var(--bg-2);
+}
+
+.contact-link:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+.contact-link span {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.contact-link strong {
+  font-family: var(--mono);
+  font-size: clamp(18px, 2.4vw, 28px);
+  font-weight: 500;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+  .contact-links {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-link + .contact-link {
+    border-left: 0;
+    border-top: 1px solid var(--paper-line);
+  }
+}

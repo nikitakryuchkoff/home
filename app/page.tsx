@@ -13,18 +13,17 @@ const ORGANIZATION_LD = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: SITE.name,
-  alternateName: SITE.shortName,
   url: SITE.url,
   email: SITE.email,
-  telephone: SITE.phone,
-  foundingDate: String(SITE.founded),
-  description:
-    "Engineering studio of architectural lighting and DMX/SPI control systems for hotels, business centres and landmark facades.",
-  address: SITE.offices.map((line) => ({
-    "@type": "PostalAddress",
-    streetAddress: line,
-  })),
-  areaServed: ["Moscow", "Dubai", "Almaty"],
+  description: "Architectural lighting, facade control and facade animation estimates.",
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      email: SITE.email,
+      url: `https://t.me/${SITE.telegram.replace(/^@/, "")}`,
+    },
+  ],
   sameAs: [],
 };
 
@@ -40,19 +39,13 @@ const WEBSITE_LD = {
 const WEBPAGE_LD = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "LUMEN ARCHITECTURE — DMX, фасадная анимация, медиафасады",
+  name: "DMX — стоимость фасадного освещения и анимации",
   url: SITE.url,
   inLanguage: "ru-RU",
   isPartOf: { "@type": "WebSite", url: SITE.url, name: SITE.name },
-  about: [
-    "DMX control systems",
-    "Facade animation",
-    "Pixel facades",
-    "Media facades",
-    "Architectural lighting",
-  ],
+  about: ["Facade animation", "Pixel facades", "Architectural lighting"],
   description:
-    "Architectural lighting engineering studio. We design and build DMX/SPI control, pixel and media facades and authored facade animation for premium objects.",
+    "Architectural lighting engineering studio. We design and build facade control, pixel facades and authored facade animation for premium objects.",
 };
 
 const FAQ_LD = {
@@ -87,9 +80,8 @@ export default function Page() {
   return (
     <main id="main">
       <p className="sr-only">
-        LUMEN ARCHITECTURE — инженерная студия архитектурного света. С 2014 года: DMX/SPI системы
-        управления, пиксельные и медиафасады, фасадная анимация, гибкий неон, сервис и
-        техобслуживание. Москва · Дубай · Алматы.
+        DMX: стоимость систем управления, пиксельных фасадов, фасадной анимации, гибкого неона,
+        сервиса и техобслуживания.
       </p>
 
       <section className="hero" aria-label="Hero">

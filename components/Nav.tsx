@@ -11,7 +11,6 @@ const NAV_ITEMS = [
   { href: "/", label: CONTENT.nav.home },
   { href: "/services", label: CONTENT.nav.services },
   { href: "/pricing", label: CONTENT.nav.pricing },
-  { href: "/cases", label: CONTENT.nav.cases },
 ] as const;
 
 function isActive(pathname: string, href: string) {
@@ -26,7 +25,11 @@ export function Nav() {
   return (
     <nav className="nav" aria-label="Primary">
       <div className="nav-inner container">
-        <Link href="/" className="nav-brand" aria-label="LUMEN ARCHITECTURE — Home">
+        <Link
+          href="/"
+          className="nav-brand"
+          aria-label={lang === "ru" ? "DMX — главная" : "DMX — home"}
+        >
           <span className="mark" aria-hidden="true">
             <span />
             <span />
@@ -34,8 +37,7 @@ export function Nav() {
             <span />
             <span />
           </span>
-          <span>LUMEN</span>
-          <span className="sub">/ ARCHITECTURE</span>
+          <span>DMX</span>
         </Link>
         <div className="nav-links" role="menubar">
           {NAV_ITEMS.map((it) => {

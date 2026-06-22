@@ -2,9 +2,8 @@
 
 import Link from "next/link";
 
-import { CONTENT } from "@/lib/content";
+import { CONTENT, SITE } from "@/lib/content";
 
-import { ContactForm } from "./ContactForm";
 import { Faq } from "./Faq";
 import { Icon } from "./Icon";
 import { useLang } from "./LanguageContext";
@@ -120,10 +119,27 @@ export function ContactSection() {
       <div className="container">
         <SectionHead n={5} h={CONTENT.home.contactHeading}>
           <span className="micro" id="contact-h">
-            {lang === "ru" ? "[ 08 / ЗАЯВКА ]" : "[ 08 / REQUEST ]"}
+            {lang === "ru" ? "[ 08 / КОНТАКТЫ ]" : "[ 08 / CONTACTS ]"}
           </span>
         </SectionHead>
-        <ContactForm />
+        <div
+          className="contact-links"
+          aria-label={lang === "ru" ? "Способы связи" : "Contact methods"}
+        >
+          <a className="contact-link" href={`mailto:${SITE.email}`}>
+            <span>{lang === "ru" ? "Почта" : "Email"}</span>
+            <strong>{SITE.email}</strong>
+          </a>
+          <a
+            className="contact-link"
+            href={`https://t.me/${SITE.telegram.replace(/^@/, "")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Telegram</span>
+            <strong>{SITE.telegram}</strong>
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -5,7 +5,7 @@ import { CONTENT, SERVICES_DETAIL, SITE } from "@/lib/content";
 
 const TITLE = "Услуги";
 const DESC =
-  "Полный цикл: DMX/SPI системы управления, пиксельные и медиафасады, фасадная анимация, гибкий неон, сервис и объединение фасадов в единую драматургию.";
+  "Полный цикл: системы управления светом, пиксельные фасады, фасадная анимация, гибкий неон, сервис и объединение фасадов в единую драматургию.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -31,7 +31,6 @@ const SERVICES_LD = {
       description: it.body.ru,
       serviceType: it.code,
       provider: { "@type": "Organization", name: SITE.name, url: SITE.url },
-      areaServed: ["Moscow", "Dubai", "Almaty"],
       offers: {
         "@type": "Offer",
         description: SERVICES_DETAIL[i]?.pricing.ru,
@@ -44,7 +43,7 @@ const BREADCRUMBS_LD = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "LUMEN", item: SITE.url },
+    { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
     { "@type": "ListItem", position: 2, name: "Услуги", item: `${SITE.url}/services` },
   ],
 };

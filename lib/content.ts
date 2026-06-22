@@ -1,4 +1,4 @@
-export type Lang = "ru" | "en";
+﻿export type Lang = "ru" | "en";
 export type LText = { ru: string; en: string };
 
 export const tx = (o: LText | string | undefined | null, lang: Lang): string =>
@@ -26,8 +26,8 @@ export type FaqItem = {
 
 export const CONTENT = {
   brand: {
-    name: "LUMEN ARCHITECTURE",
-    short: "LUMEN",
+    name: "DMX",
+    short: "DMX",
     tag: {
       ru: "Инженерная студия архитектурного света",
       en: "Architectural lighting engineering studio",
@@ -37,7 +37,6 @@ export const CONTENT = {
     home: { ru: "Главная", en: "Home" } as LText,
     services: { ru: "Услуги", en: "Services" } as LText,
     pricing: { ru: "Стоимость", en: "Pricing" } as LText,
-    cases: { ru: "Кейсы", en: "Cases" } as LText,
     cta: { ru: "Получить расчёт", en: "Request quote" } as LText,
   },
   home: {
@@ -54,8 +53,8 @@ export const CONTENT = {
         en: "Engineering written by hand for every facade.",
       } as LText,
       p1: {
-        ru: "Lumen Architecture — студия архитектурного освещения и систем управления. Мы работаем там, где свет — часть имени здания, а не декорация. С 2014 года реализовали 112 объектов: от приватных резиденций до landmark-фасадов в трёх странах.",
-        en: "Lumen Architecture is a studio of architectural lighting and control systems. We work where light is part of a building’s identity, not a decoration. Since 2014 we have delivered 112 projects across three countries.",
+        ru: "Проектируем свет и системы управления для фасадов, общественных пространств и коммерческих объектов. Свет проектируется как часть геометрии здания: от одной плоскости до объединённой программы нескольких фасадов.",
+        en: "We design lighting and control systems for facades, public spaces and commercial objects. Light is designed as part of the building geometry: from one plane to a unified multi-facade programme.",
       } as LText,
       p2: {
         ru: "Каждый сценарий мы пишем вручную. Не используем шаблоны, не упрощаем геометрию, не подменяем индивидуальную драматургию готовыми эффектами.",
@@ -71,7 +70,7 @@ export const CONTENT = {
         {
           code: "S.01",
           icon: "dmx",
-          title: { ru: "DMX / SPI системы управления", en: "DMX / SPI control systems" },
+          title: { ru: "Системы управления светом", en: "Lighting control systems" },
           body: {
             ru: "Проектирование топологии, шкафы управления, синхронизация плоскостей, единая логика сценариев.",
             en: "Topology design, control cabinets, plane synchronisation, unified scene logic.",
@@ -81,7 +80,7 @@ export const CONTENT = {
         {
           code: "S.02",
           icon: "pixel",
-          title: { ru: "Пиксельный фасад / медиафасад", en: "Pixel facade / media facade" },
+          title: { ru: "Пиксельный фасад", en: "Pixel facade" },
           body: {
             ru: "Расчёт сетки, монтаж, контент-сценарии, калибровка по всей плоскости здания.",
             en: "Grid calculation, installation, content scenes, full-plane calibration.",
@@ -103,8 +102,8 @@ export const CONTENT = {
           icon: "neon",
           title: { ru: "Гибкий неон", en: "Flexible neon" },
           body: {
-            ru: "Контурный свет, силуэты, акцентная подсветка карнизов, интеграция в общую DMX-логику.",
-            en: "Contour light, silhouettes, cornice accents, integrated into shared DMX logic.",
+            ru: "Контурный свет, силуэты, акцентная подсветка карнизов, интеграция в общую логику управления.",
+            en: "Contour light, silhouettes, cornice accents, integrated into shared control logic.",
           },
           foot: { ru: "RGB / RGBW / monochrome", en: "RGB / RGBW / monochrome" },
         },
@@ -176,19 +175,19 @@ export const CONTENT = {
     },
     faqHeading: { ru: "Частые вопросы.", en: "Frequently asked." } as LText,
     contactHeading: {
-      ru: "Опишите фасад — соберём расчёт за 1–2 рабочих дня.",
-      en: "Describe the facade — we return an estimate in 1–2 business days.",
+      ru: "Для расчёта напишите в Telegram или на почту.",
+      en: "For an estimate, write in Telegram or by email.",
     } as LText,
   },
   faq: [
     {
       q: {
-        ru: "Сколько стоит DMX система управления?",
-        en: "How much does a DMX control system cost?",
+        ru: "Сколько стоит система управления светом?",
+        en: "How much does a lighting control system cost?",
       },
       a: {
-        ru: "Стоимость DMX-системы складывается из топологии шкафов, контроллеров, количества вселенных, синхронизации плоскостей и сложности сценариев. Для премиальных объектов она формируется индивидуально и обычно начинается от 4 000 USD за объединение нескольких фасадов в единый сценарий. Сценарии под ключ считаются отдельно — простая сцена от 600 USD, сложная — до 3 000 USD за сцену.",
-        en: "A DMX system price depends on cabinet topology, controllers, number of universes, plane synchronisation and scene complexity. For premium projects pricing is individual and starts from 4 000 USD for unified facade orchestration. Turn-key scenes are quoted separately — basic from 600 USD, complex up to 3 000 USD per scene.",
+        ru: "Стоимость системы управления складывается из топологии шкафов, контроллеров, количества линий, синхронизации плоскостей и сложности сценариев. Для премиальных объектов она формируется индивидуально и обычно начинается от 4 000 USD за объединение нескольких фасадов в единый сценарий. Сценарии под ключ считаются отдельно — простая сцена от 600 USD, сложная — до 3 000 USD за сцену.",
+        en: "A lighting control system price depends on cabinet topology, controllers, line count, plane synchronisation and scene complexity. For premium projects pricing is individual and starts from 4 000 USD for unified facade orchestration. Turn-key scenes are quoted separately — basic from 600 USD, complex up to 3 000 USD per scene.",
       },
     },
     {
@@ -200,8 +199,8 @@ export const CONTENT = {
     },
     {
       q: {
-        ru: "Сколько стоит 1 пиксель медиафасада?",
-        en: "How much does one media-facade pixel cost?",
+        ru: "Сколько стоит 1 пиксель фасада?",
+        en: "How much does one facade pixel cost?",
       },
       a: {
         ru: "Стоимость одного пикселя зависит от шага сетки, типа крепления, защиты от внешней среды и контроллера. Цена варьируется от нескольких долларов за пиксель в плотных уличных матрицах до десятков долларов в крупном уличном пикселе с независимой адресацией. Точную цифру мы даём после изучения геометрии фасада.",
@@ -214,8 +213,8 @@ export const CONTENT = {
         en: "How much does one pixel-facade point cost?",
       },
       a: {
-        ru: "Точка ламельного и пиксельного фасада обычно стоит дешевле классического медиапикселя за счёт большего шага и упрощённой адресации. Реальная цена считается под задачу, мы выдаём её в коммерческом предложении вместе со схемой раскладки.",
-        en: "A lamellae or pixel-facade point is usually cheaper than a classic media pixel due to larger pitch and simpler addressing. The real price is calculated for the task and supplied with a layout in the proposal.",
+        ru: "Точка ламельного и пиксельного фасада обычно стоит дешевле плотного экранного пикселя за счёт большего шага и упрощённой адресации. Реальная цена считается под задачу, мы выдаём её в коммерческом предложении вместе со схемой раскладки.",
+        en: "A lamellae or pixel-facade point is usually cheaper than a dense screen pixel due to larger pitch and simpler addressing. The real price is calculated for the task and supplied with a layout in the proposal.",
       },
     },
     {
@@ -283,8 +282,8 @@ export const PRICING = {
   hero: {
     kicker: { ru: "[ СТРАНИЦА · СТОИМОСТЬ ]", en: "[ PAGE · PRICING ]" } as LText,
     h1: {
-      ru: "Стоимость DMX-систем, фасадной анимации и медиафасадов.",
-      en: "DMX, facade animation and media-facade pricing.",
+      ru: "Стоимость фасадного освещения и анимации.",
+      en: "Facade lighting and animation pricing.",
     } as LText,
     sub: {
       ru: "Понятный экспертный ответ на вопросы, которые задают в Google и ChatGPT после получения коммерческого предложения. Без скрытого прайса. Без шаблонов.",
@@ -340,17 +339,17 @@ export const PRICING = {
   answers: [
     {
       q: {
-        ru: "Сколько стоит DMX система управления",
-        en: "How much does a DMX control system cost",
+        ru: "Сколько стоит система управления светом",
+        en: "How much does a lighting control system cost",
       } as LText,
       h: {
-        ru: "DMX-управление — это инженерия, а не коробка.",
-        en: "DMX control is engineering, not a box.",
+        ru: "Управление светом — это инженерия, а не коробка.",
+        en: "Lighting control is engineering, not a box.",
       } as LText,
       p: [
         {
-          ru: "DMX-система управления — это шкаф, контроллеры, разводка, вселенные, синхронизация плоскостей и логика сценариев. Готового прайса нет: каждое здание считается отдельно.",
-          en: "A DMX control system is a cabinet, controllers, wiring, universes, plane synchronisation and scene logic. There is no fixed price list: each building is calculated separately.",
+          ru: "Система управления светом — это шкаф, контроллеры, разводка, линии, синхронизация плоскостей и логика сценариев. Готового прайса нет: каждое здание считается отдельно.",
+          en: "A lighting control system is a cabinet, controllers, wiring, lines, plane synchronisation and scene logic. There is no fixed price list: each building is calculated separately.",
         },
         {
           ru: "Для премиальных объектов мы фиксируем стартовый порог: объединение нескольких фасадов в единый сценарий — от 4 000 USD. Сами сцены считаются отдельно по тарифной сетке ниже.",
@@ -474,8 +473,8 @@ export const PRICING = {
 export const SERVICES_DETAIL = [
   {
     what: {
-      ru: "Проектирование топологии DMX-сети, сборка управляющих шкафов, выбор контроллеров, разводка вселенных и протоколов.",
-      en: "DMX network topology design, control cabinet assembly, controller selection, universe and protocol layout.",
+      ru: "Проектирование топологии сети управления, сборка управляющих шкафов, выбор контроллеров, разводка линий и протоколов.",
+      en: "Control-network topology design, control cabinet assembly, controller selection, line and protocol layout.",
     } as LText,
     objects: {
       ru: "Отели, бизнес-кварталы, landmark-фасады, ритейл-флагманы.",
@@ -483,7 +482,7 @@ export const SERVICES_DETAIL = [
     } as LText,
     includes: [
       { ru: "Аудит фасада и геометрии", en: "Facade and geometry audit" },
-      { ru: "Топология DMX и резервирование", en: "DMX topology and redundancy" },
+      { ru: "Топология сети и резервирование", en: "Network topology and redundancy" },
       { ru: "Шкафы управления и пусконаладка", en: "Control cabinets and commissioning" },
       { ru: "Удалённое управление и SLA", en: "Remote control and SLA" },
     ] as LText[],
@@ -534,8 +533,8 @@ export const SERVICES_DETAIL = [
   },
   {
     what: {
-      ru: "Контурный гибкий неон, силуэты, акцентная подсветка, интеграция в общую DMX-логику здания.",
-      en: "Contour flexible neon, silhouettes, accent lighting, integration into the building DMX logic.",
+      ru: "Контурный гибкий неон, силуэты, акцентная подсветка, интеграция в общую логику здания.",
+      en: "Contour flexible neon, silhouettes, accent lighting, integration into the building control logic.",
     } as LText,
     objects: {
       ru: "Рестораны, бутики, культурные кластеры, входные группы отелей.",
@@ -544,7 +543,7 @@ export const SERVICES_DETAIL = [
     includes: [
       { ru: "Раскладка контура", en: "Contour layout" },
       { ru: "Монтаж и сборка контуров", en: "Installation and contour assembly" },
-      { ru: "Интеграция в DMX-сценарий", en: "Integration into DMX scenarios" },
+      { ru: "Интеграция в общий сценарий", en: "Integration into shared scenarios" },
       { ru: "Гарантия и сервисный план", en: "Warranty and service plan" },
     ] as LText[],
     pricing: {
@@ -594,158 +593,10 @@ export const SERVICES_DETAIL = [
   },
 ];
 
-// ── CASES ──────────────────────────────────────────────────
-export const CASES = [
-  {
-    idx: "01",
-    type: { ru: "Отель · 5★ · 2 фасада", en: "Hotel · 5★ · 2 facades" } as LText,
-    ttl: { ru: "Отель Vasiliev на двух фасадах", en: "Hotel Vasiliev across two facades" } as LText,
-    task: {
-      ru: "Объединить два фасада отеля в единую световую драматургию, не нарушая ночной режим жилой зоны.",
-      en: "Unify two hotel facades into one light dramaturgy without breaking the residential night zone.",
-    } as LText,
-    sol: {
-      ru: "Спроектирована DMX-сеть на две вселенные, написаны 7 авторских сцен и единая ночная программа с тихим режимом после 23:00.",
-      en: "Designed a two-universe DMX network, authored 7 scenes and a unified night programme with a quiet mode after 23:00.",
-    } as LText,
-    res: {
-      ru: "Объект получил собственный световой подпись на обеих сторонах квартала. Скорость подмены модулей по SLA — 4 часа.",
-      en: "The object obtained its own light signature on both sides of the block. Module replacement SLA — 4 hours.",
-    } as LText,
-    stats: [
-      { k: { ru: "Сцен", en: "Scenes" } as LText, v: "7" },
-      { k: { ru: "Плоскостей", en: "Planes" } as LText, v: "2" },
-      { k: { ru: "Бюджет", en: "Budget" } as LText, v: "$22.4k" },
-    ],
-    drivers: {
-      ru: "Стоимость определила: ночная регламентация, ручная сложная сцена и объединение фасадов.",
-      en: "Price drivers: night regulation, hand-authored complex scene and facade orchestration.",
-    } as LText,
-  },
-  {
-    idx: "02",
-    type: { ru: "Бизнес-центр · ламели", en: "Business centre · lamellae" } as LText,
-    ttl: { ru: "Северный портал, пиксельные ламели", en: "North Portal, pixel lamellae" } as LText,
-    task: {
-      ru: "Превратить ламельную обшивку BC в управляемый пиксельный фасад без потери архитектурного ритма.",
-      en: "Turn lamellae cladding into a controllable pixel facade without losing architectural rhythm.",
-    } as LText,
-    sol: {
-      ru: "Размечена сетка 64×24, написано 10 базовых и 2 ивент-сценария, интеграция с ивент-календарём арендаторов.",
-      en: "Laid out a 64×24 grid, authored 10 base and 2 event scenes, integrated with the tenants’ event calendar.",
-    } as LText,
-    res: {
-      ru: "Здание стало точкой ориентира района. Сценарии переключаются в 1 клик через админ-панель.",
-      en: "The building became a district landmark. Scenes switch in 1 click via admin panel.",
-    } as LText,
-    stats: [
-      { k: { ru: "Точек", en: "Points" } as LText, v: "1 536" },
-      { k: { ru: "Сцен", en: "Scenes" } as LText, v: "12" },
-      { k: { ru: "Бюджет", en: "Budget" } as LText, v: "$8.6k" },
-    ],
-    drivers: {
-      ru: "Стоимость определила: плотность сетки, объём авторских сцен, интеграция с CRM арендаторов.",
-      en: "Price drivers: grid density, scene volume, tenant CRM integration.",
-    } as LText,
-  },
-  {
-    idx: "03",
-    type: { ru: "Ресторанный комплекс · неон", en: "Restaurant complex · neon" } as LText,
-    ttl: { ru: "Гастрокластер «Меридиан»", en: "Meridian gastro cluster" } as LText,
-    task: {
-      ru: "Подсветить три ресторана единой ночной идентикой, сохранив автономию каждого фасада.",
-      en: "Light three restaurants with a single night identity, preserving each facade’s autonomy.",
-    } as LText,
-    sol: {
-      ru: "Контурный гибкий неон, три независимых группы DMX, общая «ужинная» сцена в 19:30.",
-      en: "Contour flexible neon, three independent DMX groups, a shared dinner-hour scene at 19:30.",
-    } as LText,
-    res: {
-      ru: "Кластер читается как единое место с тремя характерами. Поток гостей в часы общей сцены вырос на 18%.",
-      en: "The cluster reads as one place with three characters. Guest flow during the shared scene grew by 18%.",
-    } as LText,
-    stats: [
-      { k: { ru: "Контур", en: "Contour" } as LText, v: "412 м" },
-      { k: { ru: "Сцен", en: "Scenes" } as LText, v: "9" },
-      { k: { ru: "Бюджет", en: "Budget" } as LText, v: "$14.0k" },
-    ],
-    drivers: {
-      ru: "Стоимость определила: длина контура, синхронизация трёх фасадов, авторский ритм общей сцены.",
-      en: "Price drivers: contour length, three-facade sync, shared-scene authored rhythm.",
-    } as LText,
-  },
-  {
-    idx: "04",
-    type: {
-      ru: "Торговая галерея · фасадная анимация",
-      en: "Retail gallery · facade animation",
-    } as LText,
-    ttl: {
-      ru: "Галерея «Корсо», окна второго света",
-      en: "Corso gallery, second-light windows",
-    } as LText,
-    task: {
-      ru: "Сделать фасад галереи самостоятельным ночным аттракционом, читаемым с трёх ракурсов.",
-      en: "Turn the gallery facade into a stand-alone night attraction visible from three angles.",
-    } as LText,
-    sol: {
-      ru: "Световая динамика по окнам, 5 авторских сцен, программа сезонных переходов, сложная сцена «Новый год».",
-      en: "Window-based dynamics, 5 authored scenes, a seasonal transition programme, a complex New-Year scene.",
-    } as LText,
-    res: {
-      ru: "Сезонная сцена даёт галерее главную медиа-публикацию каждый декабрь.",
-      en: "The seasonal scene gives the gallery its main media publication every December.",
-    } as LText,
-    stats: [
-      { k: { ru: "Сцен", en: "Scenes" } as LText, v: "5" },
-      { k: { ru: "Окон", en: "Windows" } as LText, v: "84" },
-      { k: { ru: "Бюджет", en: "Budget" } as LText, v: "$11.4k" },
-    ],
-    drivers: {
-      ru: "Стоимость определила: индивидуальная сложная сцена и сезонная программа.",
-      en: "Price drivers: hand-authored complex scene and seasonal programme.",
-    } as LText,
-  },
-  {
-    idx: "05",
-    type: { ru: "Landmark · 3 плоскости", en: "Landmark · 3 planes" } as LText,
-    ttl: {
-      ru: "Башня «Атлас», объединение трёх плоскостей",
-      en: "Atlas Tower, three-plane orchestration",
-    } as LText,
-    task: {
-      ru: "Создать узнаваемую световую идентику высотного landmark-объекта на трёх ракурсах одновременно.",
-      en: "Create a recognisable light identity for a high-rise landmark across three angles simultaneously.",
-    } as LText,
-    sol: {
-      ru: "Гибрид: пиксельный фасад на гранях + динамика на парапете, объединение трёх плоскостей и сценарии «час пик» / «ночь».",
-      en: "Hybrid: pixel facade on edges + parapet dynamics, three-plane orchestration and rush-hour / night scenes.",
-    } as LText,
-    res: {
-      ru: "Башня стала ночным ориентиром района. Программа гибко перестраивается под городские события.",
-      en: "The tower became a night landmark of the district. The programme reconfigures flexibly for city events.",
-    } as LText,
-    stats: [
-      { k: { ru: "Плоскостей", en: "Planes" } as LText, v: "3" },
-      { k: { ru: "Сцен", en: "Scenes" } as LText, v: "14" },
-      { k: { ru: "Бюджет", en: "Budget" } as LText, v: "$36.8k" },
-    ],
-    drivers: {
-      ru: "Стоимость определила: 3-плоскостная синхронизация, 4 сложные сцены, ивент-режимы.",
-      en: "Price drivers: 3-plane sync, 4 complex scenes, event modes.",
-    } as LText,
-  },
-];
-
 export const SITE = {
-  url: "https://lumen-arch.studio",
-  name: "LUMEN ARCHITECTURE",
-  shortName: "LUMEN",
-  email: "hello@lumen-arch.studio",
-  phone: "+7 495 000 00 00",
-  telegram: "@lumen_arch",
-  whatsapp: "+971 50 000 0000",
-  founded: 2014,
-  projects: 112,
-  offices: ["Москва, Б. Якиманка, 32", "Dubai, DIFC, Gate Village 4", "Алматы, Аль-Фараби, 7"],
+  url: "https://light-estimate.ru",
+  name: "DMX",
+  shortName: "DMX",
+  email: "hello@light-estimate.ru",
+  telegram: "@light_estimate",
 };

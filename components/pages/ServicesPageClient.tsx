@@ -35,7 +35,7 @@ export function ServicesPageClient() {
         </div>
       </section>
 
-      <div className="container services-list">
+      <div className="services-list container">
         {items.map((s, i) => {
           const d = SERVICES_DETAIL[i];
           return (

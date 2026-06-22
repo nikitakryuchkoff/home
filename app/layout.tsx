@@ -14,33 +14,28 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const TITLE = "LUMEN ARCHITECTURE — DMX, фасадная анимация, медиафасады";
+const TITLE = "DMX — стоимость фасадного освещения и анимации";
 const DESC =
-  "Инженерная студия архитектурного света. Проектируем и собираем DMX/SPI системы управления, пиксельные и медиафасады для отелей, бизнес-центров и landmark-объектов в Москве, Дубае и Алматы.";
+  "Расчёт стоимости архитектурного света: системы управления, пиксельные фасады, фасадная анимация, гибкий неон и сервис.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
     default: TITLE,
-    template: "%s · LUMEN",
+    template: "%s · DMX",
   },
   description: DESC,
   keywords: [
-    "DMX",
-    "SPI",
-    "медиафасад",
     "фасадная анимация",
     "архитектурное освещение",
     "пиксельный фасад",
     "гибкий неон",
-    "media facade",
     "facade animation",
     "architectural lighting",
-    "Lumen Architecture",
   ],
-  authors: [{ name: "LUMEN ARCHITECTURE" }],
-  creator: "LUMEN ARCHITECTURE",
-  publisher: "LUMEN ARCHITECTURE",
+  authors: [{ name: "DMX" }],
+  creator: "DMX",
+  publisher: "DMX",
   alternates: {
     canonical: "/",
     languages: { ru: "/", en: "/?lang=en" },
